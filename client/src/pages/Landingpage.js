@@ -22,9 +22,9 @@ const Landingpage = () => {
   const [splitnames, setSplitnames] = useState([]);
   const [formData, setFormData] = useState({});
   const uri =
-    process.env.NODE_ENV == "development"
+    process.env.NODE_ENV === "development"
       ? `http://localhost:4444`
-      : "https://techramarketing.onrender.com/";
+      : "https://techramarketing.onrender.com";
 
   const subscribe = async (e) => {
     e.preventDefault();
