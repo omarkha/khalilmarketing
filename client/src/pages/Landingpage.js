@@ -32,16 +32,9 @@ const Landingpage = () => {
     setData();
 
     try {
-      await axios
-        .post(`${uri}/api/subscribers`, {
-          email: email,
-          firstname: fullname.split(" ")[fullname.split(" ").length - 1],
-          lastname: fullname.split(" ")[0],
-          fullname: fullname,
-        })
-        .then((res) => {
-          console.log(res);
-        });
+      await axios.post(`${uri}/api/subscribers`, formData).then((res) => {
+        console.log(res);
+      });
     } catch (err) {
       console.log("error subscribing function: ", err);
     }
@@ -50,9 +43,9 @@ const Landingpage = () => {
   const setData = () => {
     setFormData({
       email: email,
-      first_name: firstname,
-      last_name: lastname,
-      full_name: fullname,
+      firstname: fullname.split(" ")[fullname.split(" ").length - 1],
+      lastname: fullname.split(" ")[0],
+      fullname: fullname,
     });
     console.log(formData);
   };
