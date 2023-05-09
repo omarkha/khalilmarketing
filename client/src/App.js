@@ -36,7 +36,7 @@ function App() {
             <Navbar />
             <Routes>
               <Route element={<Homepage />} path="*" />
-              <Route element={<Homepage />} path="/" />
+              <Route element={<Homepage />} exact path="/" />
               <Route element={<Aboutpage />} path="/about" />
               <Route element={<Portfoliopage />} path="/portfolio" />
               <Route element={<Servicespage />} path="/services" />
