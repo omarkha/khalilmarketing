@@ -24,18 +24,30 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <Navbar />
-        <Routes>
-          <Route element={<Notfoundpage />} path="*" />
-          <Route element={<Homepage />} exact path="/" />
-          <Route element={<Aboutpage />} path="/about" />
-          <Route element={<Portfoliopage />} path="/portfolio" />
-          <Route element={<Servicespage />} path="/services" />
-          <Route element={<Landingpage />} path="/landingpage" />
-          <Route element={<Blogpage />} path="/blog" />
-        </Routes>
+        {loading ? (
+          <div className="spinner-page">
+            <div className="landingpage-logo">
+              <div style={{ backgroundImage: `url(${logo})` }}></div>
+              <h1>Khalil's Marketing</h1>
+            </div>
+            <GridLoader color="#000028" />
+          </div>
+        ) : (
+          <div>
+            <Navbar />
+            <Routes>
+              <Route element={<Notfoundpage />} path="*" />
+              <Route element={<Homepage />} exact path="/" />
+              <Route element={<Aboutpage />} path="/about" />
+              <Route element={<Portfoliopage />} path="/portfolio" />
+              <Route element={<Servicespage />} path="/services" />
+              <Route element={<Landingpage />} path="/landingpage" />
+              <Route element={<Blogpage />} path="/blog" />
+            </Routes>
 
-        <Footer />
+            <Footer />
+          </div>
+        )}
       </div>
     </Router>
   );

@@ -23,22 +23,21 @@ const Landingpage = () => {
   const [formData, setFormData] = useState({});
   const uri =
     process.env.NODE_ENV == "development"
-      ? `http://localhost:5000`
+      ? `http://localhost:4444`
       : "https://techramarketing.onrender.com/";
 
   const subscribe = async (e) => {
     e.preventDefault();
 
-    setNames();
     setData();
 
     try {
       await axios
         .post(`${uri}/api/subscribers`, {
           email: email,
-          first_name: firstname,
-          last_name: lastname,
-          full_name: fullname,
+          firstname: fullname.split(" ")[fullname.split(" ").length - 1],
+          lastname: fullname.split(" ")[0],
+          fullname: fullname,
         })
         .then((res) => {
           console.log(res);
@@ -46,13 +45,6 @@ const Landingpage = () => {
     } catch (err) {
       console.log("error subscribing function: ", err);
     }
-  };
-
-  const setNames = () => {
-    setFirstname(fullname.split(" ")[0]);
-    setLastname(fullname.split(" ")[fullname.split(" ").length - 1]);
-
-    console.log(lastname);
   };
 
   const setData = () => {
