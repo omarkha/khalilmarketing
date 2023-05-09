@@ -11,6 +11,7 @@ import Blogpage from "./pages/Blogpage";
 import { useEffect, useState } from "react";
 import { GridLoader } from "react-spinners";
 import logo from "./media/logo.png";
+import Notfoundpage from "./pages/Notfoundpage";
 function App() {
   const [loading, setLoading] = useState(false);
   useEffect(() => {
@@ -35,6 +36,7 @@ function App() {
           <div>
             <Navbar />
             <Routes>
+              <Route element={<Notfoundpage />} path="*" />
               <Route element={<Homepage />} exact path="/" />
               <Route element={<Aboutpage />} path="/about" />
               <Route element={<Portfoliopage />} path="/portfolio" />
