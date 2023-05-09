@@ -14,7 +14,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(morgan("dev"));
 app.use(express.static(`${__dirname}/client/build`));
 
-const port = process.env.PORT || 5000;
+const port = 4444;
 
 app.get("/", (req, res) => {
   res.send("Api running");
@@ -25,7 +25,7 @@ require("dotenv").config(); // Add this line
 
 let dbUrl =
   process.env.NODE_ENV === "production"
-    ? "mongodb+srv://Copyres:<password>@cluster0.ohmco.mongodb.net/"
+    ? "mongodb+srv://Copyres:Soridl846@cluster0.ohmco.mongodb.net/"
     : "mongodb://127.0.0.1:27017/marketingdb";
 
 mongoose
@@ -40,7 +40,7 @@ mongoose.set("debug", true);
 mongoose.connection;
 
 // Routes
-app.use("/api/subscribers", require("./routes/subscribers"));
+app.use("/api/subscribers", require("./routes/subscriberRoutes"));
 
 //
 app.get("/*", (req, res) => {
