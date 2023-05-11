@@ -60,8 +60,8 @@ const Landingpage = () => {
           <div className="container">
             <div className="landingpage-logo">
               <h2 className="headline h1">
-                Got a New Business? Put Your Budget To Its Fullest Potential
-                With 'The Password to Success' and Get Order Notifications
+                Starting a New Business? Put Your Budget To Its Fullest
+                Potential With 'The Password to Success' and Get Orders
                 Streaming To Your Bank!
               </h2>{" "}
               <br />
@@ -87,9 +87,9 @@ const Landingpage = () => {
               <br />
               <br />
               <h2 className="h2">
-                One Word Can Turn Your Brand-New Business Into a Modern,
-                Programmed Machine That Produces Money for You While You Eat,
-                Sleep and Relax
+                After Learning This One Secret Word, You, Now, Can Turn Your
+                Brand-New Business Into a Programmed Machine That Produces Money
+                for You.
               </h2>
             </Fade>
             <br />
@@ -116,35 +116,40 @@ const Landingpage = () => {
                   <br />
                   <br />
                   There's a secret to solving all of these disruptive problems,
-                  shortcut your journey and capture a big slice of the market.{" "}
+                  shortcut your journey to financial freedom and capture a big
+                  slice of the market. <br />
+                  <br />
+                  Here's The Secret Word That You Might've Heard Before Or Might
+                  Not Have. It is the word... 'Copywriter'
                   <br />
                   <br />
-                  That secret word I talked about is... 'copywriter'
-                  <br />
-                  <br />
-                  It's someone who uses the right words to persuade prospects to
-                  buy from you and convert them into satisfied clients.
-                  <br />
-                  <br />
-                  Like an engineer fueling up a sci-fi looking fighter jet for
-                  battle, a trained copywriter helps prepare your business, pour
-                  revenue in its engine of operations and launch it from the
-                  grounds up.
-                  <br />
-                  <br />
-                  The crucial part of the secret here, is to not employ just any
-                  copywriter you can find, but someone who's properly trained,
-                  knows their craft and can convert prospects into satisfied
+                  A copywriter is someone who uses the right words to persuade
+                  prospects to buy from you and convert them into satisfied
                   clients.
                   <br />
                   <br />
-                  Allow me to introduce myself.
+                  Like an engineer working on a fighter jet before it flies over
+                  the battle field and own the skies, a trained copywriter
+                  prepares your business, fills it up with revenue so you can
+                  take off and own a portion of the market.
                   <br />
                   <br />
-                  I'm Omar Khalil, I currently live in New York. I'm an
-                  entrepreneur myself, a software developer and a copywriter
-                  who's trained, certified and experienced to get businesses of
-                  all sizes competing and winning prospects.
+                  The crucial part of this secret is first knowing that 95% of
+                  copywriters are not up to snuff. So do not employ any
+                  copywriter you can find, instead find a properly trained,
+                  marketing craftsman, who can actually convert prospects into
+                  satisfied, paying clients.
+                  <br />
+                  <br />
+                  Where could you find a well trained copywriter who's
+                  startup-budget-friendly?
+                  <br />
+                  <br />
+                  Hi there, I'm Omar Khalil. I'm an entrepreneur myself, a
+                  programmer and a copywriter from upstate New York. I am
+                  trained and certified at getting businesses of all sizes
+                  competing in almost any market. And I'm here to help startup
+                  business owners reach financial freedom.
                   <br />
                   <br /> To help you reach your desired sales, I can write
                   marketing copy for your business, get you qualified leads,
@@ -169,10 +174,10 @@ const Landingpage = () => {
                     alt="survey picture"
                   />
                   <br />
-                  Like most kids, my ambitions were big. But when I grew up, I
+                  Like most kids, I set ambitions high. But as I grew up, I
                   didn't lose my drive. <br />
                   <br />
-                  my ambitions were higher than the horizon, at 18 years old.
+                  When I was 18, my ambitions were higher than the horizon.
                   Therefore, I moved from my small, little town in upstate New
                   York to Colorado, to make my impact on the world.
                   <br />
@@ -182,25 +187,27 @@ const Landingpage = () => {
                   didn't have a short-term plan but I had a direction and a
                   destination in mind.
                   <br />
-                  <br /> As soon as I got to a motel, I needed to secure my
-                  stay, so right away, I hammered away with fulltime jobs.
+                  <br /> As soon as I got to a motel, I figured that I needed to
+                  secure my stay, so right away, I hammered away with fulltime
+                  jobs.
                   <br />
                   <br />
                   With an abundance of energy and a knack for adventure I was
                   very confident. I guess a bit too confident as my first job
                   was not ideal for me at the time.
                   <br />
-                  <br /> I worked as a Salesman for The Kirby Company selling
-                  expensive, high-end Vacuum Cleaners. But I lacked the sales
-                  expertise necessary to secure a sufficient income getting paid
-                  on commission. So, I moved on, after three weeks, in search of
-                  a job with a stable wage.
+                  <br />I was a Salesman, for my first job, working for The
+                  Kirby Company selling expensive, high-end Vacuum Cleaners. But
+                  I lacked the sales expertise necessary to secure a sufficient
+                  income while getting paid on commission. So, I moved on, after
+                  three weeks, in search of a job with a stable wage.
                   <br />
                   <br />
-                  That's when I struck gold. I was hired at a marketing company
-                  called Black Diamond Outreach, where I went canvassing on the
-                  field, with a tablet that showed a map pinpointing the
-                  locations of a list of people I was assigned to survey.
+                  That's when I struck gold. I applied for and got hired at a
+                  marketing company called Black Diamond Outreach. There, I went
+                  canvassing on the field, with a tablet that showed a map
+                  pinpointing the locations of a list of people I was assigned
+                  to survey.
                   <br />
                   <br />
                   I knocked on their doors, introduced myself and chatted with
@@ -208,8 +215,8 @@ const Landingpage = () => {
                   collected their names and emails. Each day, I interviewed up
                   to around 85 people face to face. <br />
                   <br />
-                  As a communicative person, that job was easy for me, I enjoyed
-                  it and excelled at it.
+                  As a communicative person, that was an easy job for me, I
+                  enjoyed surveying people and excelled at it.
                   <br />
                   <br />
                 </p>
@@ -294,9 +301,10 @@ const Landingpage = () => {
                   <u>
                     <strong>I’ve read</strong> about <strong>49 books.</strong>
                   </u>{" "}
-                  About <strong>15 books on Copywriting</strong>, some others
-                  were about <strong>Marketing</strong> in general and others
-                  were mostly self-help books.
+                  several of those books were on <strong>Marketing</strong> in
+                  general and others were mostly self-help books, and out of
+                  those 49 books I've read, about{" "}
+                  <strong>15 of them were on Copywriting</strong>.
                   <br />
                   <br />
                   <Bounce>
@@ -305,8 +313,8 @@ const Landingpage = () => {
                   <h5 className="text-muted">Some books I've read</h5>
                   <br />
                   <br />
-                  You can expect me to apply my knowledge of the following
-                  all-time best marketing books in writing your copy:
+                  You can expect me to apply my knowledge of the following best
+                  marketing books of all-time, in writing your copy:
                   <br />
                   <br />
                   <ul>
@@ -364,25 +372,20 @@ const Landingpage = () => {
                   used to be just a copywriter with a typewriter writing
                   marketing materials. Now companies are utilizing software
                   developers to engineer software that optimizes their marketing
-                  campaigns. But I'm not new to software development either.
+                  campaigns. But I'm not new to coding either.
                   <br />
-                  <br />I have extensive knowledge and practice. I didn't stop
-                  after I taught myself software engineering at 14 years old by
-                  self-teaching. To learn even more about software engineering,
-                  I, Then, took Computer Science classes at New Paltz High
-                  School. And In 2022, I’ve completed General Assembly’s
-                  Software Engineering Bootcamp.
-                  <br /> You're free to check out my
+                  <br />
+                  <h4>Entrepreneurial and Marketing Software Solutions</h4>
+                  <br /> After I taught myself programmingƒOneƒ at 14 years old
+                  with programming languages such as HTML, JavaScript and CSS,
+                  I, then, enrolled in Computer Science classes at New Paltz
+                  High School. A few years after graduating High School and In
+                  May of 2022, I completed a $15,000 Software Engineering
+                  bootcamp at General Assembly.
+                  <br /> Feel free to check out my
                   <a href="https://omarkhalil.netlify.app/" target="_blank">
                     software development portfolio website
                   </a>
-                  for software applications I’ve developed.
-                  <br />
-                  <br />
-                  I orient my software development learning around
-                  entrepreneurship and I'm consistently learning new
-                  technologies and development techniques, practicing my skills
-                  and improving my software development abilities.
                   <br />
                   <br />
                 </Zoom>
@@ -392,23 +395,26 @@ const Landingpage = () => {
                 <Fade bottom>
                   <br />
                   <br />
-                  Being a Full Stack Software Engineer, I can develop for the
-                  Client-Side and Server-Side of a website. I know how to design
-                  the websites layout, graphics and client-side of the
-                  application as well as the behind the scenes functionality of
-                  the website. And I can also create databases and much more.
+                  As a Full-Stack Software Engineer, I can develop the
+                  Client-Side and Server-Side of your website. I know how to
+                  design the layout, graphics and client-side of the application
+                  as well as the behind the scenes functionality such as setting
+                  up and managing your databases. That means I can engineer all
+                  aspects of your web application. In case you need that extra
+                  help.
                   <br />
                   <br />
-                  I don't rely on other developers for my own entrepreneurial
-                  project. Even this website has been fully designed and
-                  developed by me personally.
+                  This website was, in fact, fully designed and developed by me
+                  personally. I don't usually rely on other developers for my
+                  own entrepreneurial projects. Though, I have a network of
+                  engineers that I can turn to if I ever need to.
                   <br />
                   <br />
-                  When you work with a tech savvy copywriter you can rest easy
-                  knowing they understand the technical mechanics of your online
-                  business to make marketing operations run smoother. As well as
-                  helping you build a smarter, more effective marketing campaign
-                  that matches the best in the industry.
+                  As a marketing professional who understands the technical
+                  mechanics of your online business, You can feel comfortable
+                  knowing you're getting reliable business solutions. I can help
+                  you build smarter, more effective marketing campaigns that
+                  match the best in the industry.
                 </Fade>
               </p>
             </article>
@@ -425,13 +431,12 @@ const Landingpage = () => {
                 I’ve written copy for many businesses of mine and I can write
                 copy for just about any business idea.
                 <br />
-                <br /> Robert Kiyosaki suggested in ‘Rich Dad, Poor Dad,’ that
-                working for experience leads to more monetary success than
-                working for money. So to make a positive impact on the success
-                of your business makes me gain valuable experience. Thus,
-                whatever your business is about, I will go above and beyond to
-                provide you with as much results as possible. The only deals I
-                make are win-win deals and I like to win bigly.
+                <br /> Robert Kiyosaki accurately suggested in ‘Rich Dad, Poor
+                Dad,’ that working for experience leads to more monetary success
+                than working for money. That's why I'd like to work with you as
+                long as you're an intelligent and entrepreneurially-spirited
+                individual who has a profitable business and that's why I offer
+                flexible payment plans.
               </Fade>
             </p>{" "}
             <br />
