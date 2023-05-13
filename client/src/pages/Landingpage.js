@@ -61,7 +61,7 @@ const Landingpage = () => {
           id="landingpage-banner"
           style={{ backgroundImage: `url(${banner})` }}
         >
-          <div className="container">
+          <div id="container" className="container">
             <div className="landingpage-headline">
               <h2 className="headline h1">
                 How This <u>One Secret Word</u> Can Make You 10x Richer
@@ -79,7 +79,7 @@ const Landingpage = () => {
           </div>
         </div>
       </Fade>
-      <div className="container">
+      <div id="mobile-container" className="landingpage-container">
         <section className="copy">
           <br />
           <br />

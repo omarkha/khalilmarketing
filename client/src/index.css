@@ -8,7 +8,7 @@ body {
   font-family: "Comme", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(255, 255, 0);
 }
 
 code {
@@ -402,7 +402,7 @@ article {
 
 article img {
   margin: 21px;
-  width: 38%;
+  width: calc(100vh - 38%);
 
   border-radius: 13px;
 }
@@ -594,5 +594,126 @@ article img {
   justify-content: center;
 }
 
-#omar-picture h2 {
+@media all and (max-width: 400px) {
+  body {
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+  }
+  .certificate {
+    margin: 0;
+  }
+  .landingpage {
+    background: rgb(215, 215, 215);
+    margin: 0;
+    padding: 0;
+  }
+  article {
+    position: relative;
+    left: 0;
+    padding: 0;
+    background-color: #fff;
+    margin: 0;
+    border: 0;
+    width: 100%;
+    border-radius: 13px;
+  }
+  article img {
+    margin: 21px 0;
+    width: 100%;
+    margin-left: 0;
+    float: none;
+    border-radius: 13px;
+  }
+  .container {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+  }
+  #mobile-container {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+  }
+  footer {
+    width: 100%;
+  }
+  .socialmedia {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 13px;
+  }
+
+  .copy form {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    box-sizing: border-box;
+    border: 1px solid white;
+    width: fit-content;
+    background: linear-gradient(rgba(15, 25, 25, 1), rgba(25, 25, 25, 0.38));
+    border-radius: 34px;
+  }
+  #omar-picture {
+    margin: 0;
+    margin: 21px auto;
+    width: 100%;
+    border-radius: 13px;
+    height: 377px;
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-position-y: -89px;
+    background-color: rgb(0, 40, 160);
+    background-blend-mode: lighten;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+  }
+  .copy .testimonial {
+    font-size: 18px;
+    background: linear-gradient(rgb(0, 0, 40, 1), rgb(15, 101, 215));
+    border: 3px solid #fff;
+    box-shadow: 0 0 8px #000;
+    padding: 13px;
+    border-radius: 13px;
+    width: 100%;
+    margin: 55px auto;
+  }
+  .copy .quote {
+    color: #fff;
+    font-size: 18px;
+    background-color: rgb(101, 101, 160);
+    padding: 21px;
+    border-radius: 13px;
+    width: 100%;
+    margin: 55px auto;
+  }
+  .copy p {
+    font-size: 13px;
+    padding: 0;
+    line-height: 34px;
+  }
+  .copy h3 {
+    font-size: 21px;
+  }
+  .copy {
+    padding: 0;
+  }
+  input[type="text"] {
+    text-align: center;
+    width: 100%;
+    padding: 5px;
+    border: 3px solid tomato;
+    border-radius: 5px;
+  }
+  ul {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
 }
