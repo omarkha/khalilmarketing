@@ -376,20 +376,25 @@ const Landingpage = () => {
             <Fade left>
               <p className="h1 text-dark">
                 <h3 className="h1 subhead">
-                  Articulate, Coherent and Bilingual
+                  Writing Copy In English As a Non-Native English Speaker
                 </h3>
                 <br />
                 Knowing the correct words to use and their correct arrangement
                 is what distinguishes an excellent copywriter from an average
-                one.
+                Joe.
                 <br />
                 <br />
-                My native language is, if you couldn't guess, Arabic. Some
-                people might assume that non-native English speakers are not as
-                capable as native speakers. They're not always wrong. Although,
-                while it's true that natives usually have a deeper understanding
-                of the English language, research shows that being bilingual
-                comes with some exclusive strengths.
+                While my native language is.. if you couldn't guess... Arabic, I
+                think this shouldn't deter you. Some people might assume that
+                non-native English speakers are not as capable as native
+                speakers. They're not always wrong. Although, while it's true
+                that natives usually have a deeper understanding of the English
+                language, research shows that being bilingual comes with some
+                exclusive strengths.
+                <br />
+                <br />
+                Scientific studies show that bilingual individual are actually
+                at an advantage in regards to Copywriting.
                 <br />
                 <br />
                 <div className="quote">
@@ -402,10 +407,12 @@ const Landingpage = () => {
                   task (e.g., Bialystok et al., 2004; for a general review, see
                   Bialystok and Craik, 2010)."{" "}
                 </div>
-                With more tools for self-expression and unique capabilities, I
-                can write a one-of-a-kind marketing piece that grabs MORE
-                attention, inspires MORE interest, builds MORE desire, and gets
-                MORE prospects to take ACTION.
+                With more tools for self-expression, access to different
+                mindsets and perceptions, being freer in explaining things,
+                freer in my thinking and being a more powerful thinker, I can
+                write for you one-of-a-kind marketing pieces that persuade
+                prospects, grab MORE attention, inspire MORE interest, build
+                MORE desire, and get MORE prospects to take ACTION.
                 <br />
                 <br />I have lived in the US since 12 years old. I'm currently
                 27 years old. So I've been learning English for 15 years.
