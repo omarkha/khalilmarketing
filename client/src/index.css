@@ -105,6 +105,10 @@ a:hover {
   margin: 0 auto;
 }
 
+.landingpage {
+  background: rgb(215, 215, 215);
+}
+
 .landingpage .container {
   border-top: 0;
   border-bottom: 0;
@@ -238,6 +242,8 @@ a:hover {
 
 .landingpage-logo {
   margin: 0 auto;
+  width: fit-content;
+  padding: 21px 34px;
 }
 .landingpage-logo div {
   width: 55px;
@@ -265,7 +271,18 @@ a:hover {
   padding-left: 89px;
   line-height: 34px;
 }
+.copy .testimonial {
+  font-size: 18px;
+  background: linear-gradient(rgb(0, 0, 40, 1), rgb(15, 101, 215));
+  border: 3px solid #fff;
+  box-shadow: 0 0 8px #000;
+  padding: 13px;
+  border-radius: 13px;
+  width: 610px;
+  margin: 55px auto;
+}
 .copy .quote {
+  color: #fff;
   font-size: 18px;
   background-color: rgb(15, 101, 215);
   border: 3px solid #000;
@@ -373,6 +390,15 @@ footer ul {
 }
 .footercontent ul li a:hover {
   color: rgb(215, 101, 25);
+}
+
+article {
+  background-color: #fff;
+  margin: 144px auto;
+  border: 2px solid #000;
+  padding: 55px 13px;
+  width: 100%;
+  border-radius: 13px;
 }
 
 article img {
