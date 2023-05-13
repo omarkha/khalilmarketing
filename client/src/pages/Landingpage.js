@@ -1,12 +1,14 @@
 import React, { useState } from "react";
-import survey from "../media/survey.jpg";
+import survey from "../media/survey2.jpg";
 import gem from "../media/gem.jpg";
+import beethoven from "../media/Beethoven.jpg";
 import alison from "../media/alison.avif";
 import bootcamp from "../media/bootcamp.png";
 import coding from "../media/coding.jpg";
 import banner from "../media/bg3.jpg";
 import books from "../media/books.jpg";
 import award from "../media/award.png";
+import scrolldown from "../media/scrolldown.gif";
 import alisoncertificate from "../media/alison-certificate.png";
 import { AiFillCheckCircle } from "react-icons/ai";
 import logo from "../media/logo.png";
@@ -58,15 +60,19 @@ const Landingpage = () => {
           style={{ backgroundImage: `url(${banner})` }}
         >
           <div className="container">
-            <div className="landingpage-logo">
+            <div className="landingpage-headline">
               <h2 className="headline h1">
-                Starting a New Business? Put Your Budget To Its Fullest
-                Potential With 'The Password to Success' and Get Orders
-                Streaming To Your Bank!
+                How This <u>One Secret Word</u> Can Make You 10x Richer
               </h2>{" "}
               <br />
               <br />
-              <h3>..Scroll Down for More..</h3>
+            </div>
+            <div className="scrolldown">
+              <h3>Scroll Down</h3>
+              <div
+                id="scrolldown"
+                style={{ backgroundImage: `url(${scrolldown})` }}
+              />
             </div>
           </div>
         </div>
@@ -87,9 +93,9 @@ const Landingpage = () => {
               <br />
               <br />
               <h2 className="h2">
-                After Learning This One Secret Word, You, Now, Can Turn Your
-                Brand-New Business Into a Programmed Machine That Produces Money
-                for You.
+                After Learning This Secret Marketing Word, You Can Profitably
+                Launch Your New Startup Business And Receive a Stream of Orders
+                In a Short Amount of Time
               </h2>
             </Fade>
             <br />
@@ -98,69 +104,116 @@ const Landingpage = () => {
             <br />
             <br />
             <br />
-            <Fade left>
-              <article>
-                <p className="h1 text-dark">
+            <article>
+              <p className="h1 text-dark">
+                <Fade left>
                   <img src={gem} style={{ float: "left" }} />
-                  You stopped beating around the books, you’ve got your magical
-                  idea, and not only that but you also worked hard and created a
-                  product or service which you can't help but sit back, look at
-                  and marvel over! Now you’re ready to start out, launch your
-                  business, and cash in, Right? <br />
                   <br />
-                  Here's where 'The Password to Success' comes in.
+                  A profitable business idea emerged in your mind, and you
+                  stopped beating around the books. After working hard, you
+                  created an awesome product that you can't help but sit back,
+                  look at, and marvel over. Now it's time to start, get paid,
+                  and celebrate. Right? <br />
                   <br />
-                  <br />
-                  New business owners usually struggle against competition with
-                  unfruitful web presence, lack of time, and shortage of funds.
+                  The answer will be 'absolutely, yes.' as soon as you learn
+                  about this keyword.
                   <br />
                   <br />
-                  There's a secret to solving all of these disruptive problems,
-                  shortcut your journey to financial freedom and capture a big
-                  slice of the market. <br />
-                  <br />
-                  Here's The Secret Word That You Might've Heard Before Or Might
-                  Not Have. It is the word... 'Copywriter'
-                  <br />
-                  <br />
-                  A copywriter is someone who uses the right words to persuade
-                  prospects to buy from you and convert them into satisfied
-                  clients.
+                  This secretive keyword I'm talking about is the word
+                  'Copywriter.' It covers a type of professional who can remove
+                  all the obstacles you face as a new business owner. Such as an
+                  unfruitful online presence, lack of time, and shortage of
+                  funds.
                   <br />
                   <br />
-                  Like an engineer working on a fighter jet before it flies over
-                  the battle field and own the skies, a trained copywriter
-                  prepares your business, fills it up with revenue so you can
-                  take off and own a portion of the market.
+                </Fade>
+                <Fade right>
+                  <h4 className="text-primary">What Does The Word Mean?</h4>
+                  <br />
+                  <img src={beethoven} style={{ float: "right" }} />
+                  When I learned the meaning of this particular word, I knew I
+                  struck gold and I got the key to reaching my ambitious goals.{" "}
+                  <br />
+                  <br />A copywriter is like a Musical Composer. But instead, he
+                  composes attention-grabbing, interest-evoking,
+                  desire-building, action-prompting, and persuasive written
+                  paragraphs. These emotionally moving melodies that are struck
+                  by each paragraph cast a buying spell on your ideal customers.
                   <br />
                   <br />
-                  The crucial part of this secret is first knowing that 95% of
-                  copywriters are not up to snuff. So do not employ any
-                  copywriter you can find, instead find a properly trained,
-                  marketing craftsman, who can actually convert prospects into
-                  satisfied, paying clients.
+                  When the prospect is persuaded, they will run, grab their
+                  wallet and give you their credit card information with a big
+                  smile on their face.
                   <br />
                   <br />
-                  Where could you find a well trained copywriter who's
-                  startup-budget-friendly?
+                  When you promise them a unique experience and the right
+                  benefits, with a proper delivery, you move their buying needle
+                  to your advantage.
                   <br />
                   <br />
-                  Hi there, I'm Omar Khalil. I'm an entrepreneur myself, a
-                  programmer and a copywriter from upstate New York. I am
-                  trained and certified at getting businesses of all sizes
-                  competing in almost any market. And I'm here to help startup
-                  business owners reach financial freedom.
+                  After they experience the beneficial results of your product
+                  they will give you heart-warming testimonials and you can
+                  further boost your sales.
                   <br />
-                  <br /> To help you reach your desired sales, I can write
-                  marketing copy for your business, get you qualified leads,
-                  close those crucial sales, survey your market, get you
-                  testimonials, advertise for you and make sure your clients are
-                  happy, so instead of exhausting your energy on tedious and
-                  time-consuming marketing tasks, you can comfortably spend your
-                  time on perfecting your products.
-                </p>{" "}
-              </article>
-            </Fade>
+                  <br />
+                  In no time, this marketing guru starts channeling money from
+                  the market pool into your bank account. Then you can finally
+                  achieve total financial freedom within a few months to two
+                  years.
+                  <br />
+                  <br />
+                </Fade>
+                <h4 className="text-danger">
+                  But There's a Challenging Obstacle
+                </h4>
+                <br />
+                The bad news is that 95% of copywriters are novices who are not
+                up to snuff, and a good copywriter may cost more than you could
+                afford.
+                <br />
+                <br />
+                But, if you don't want a marketing mess, it's best to hire a
+                properly trained copywriter who has a good marketing game, who
+                undestands the technological aspect of marketing, and who can
+                convert prospects into satisfied, paying clients.
+                <br />
+                <br />
+                The size of your budget doesn't matter to me, the only thing
+                that matters is that you have created a profitable product.
+                <br />
+                <br />
+                <Fade bottom>
+                  <h4 className="text-success">
+                    <u>What I Can Do For You</u>
+                  </h4>
+                  <br />
+                  Hi There, My name is Omar S. Khalil and I've studied the art
+                  and science of copywriting for over 5 years. As an experienced
+                  Copywriter from a small town in upstate New York, I'm
+                  qualified, certified and ready to help your business survive
+                  through the adversity of the starting phase and have a
+                  prosperous future.
+                  <br />
+                  <br />I can effectively and creatively write converting
+                  marketing copy for any type of business. I will win you
+                  qualified leads, win you those important initial sales and
+                  provide you with the continuous marketing you need to be able
+                  to earn money year after year.
+                  <br />
+                  <br /> With a bit of hard work and patience, you'll eventually
+                  begin living the life you've been dreaming about and working
+                  hard to achieve.
+                  <br />
+                  <br /> I continuously tweak and perfect the marketing aspect
+                  of your business, so instead of being overwhelmed and
+                  exhausted by a field of study that takes years to master, you
+                  can comfortably spend your time on what you enjoy best:
+                  tweaking and perfecting your products.
+                  <br />
+                  <br />
+                </Fade>
+              </p>{" "}
+            </article>
             <br />
             <Fade left>
               <article>
@@ -174,7 +227,7 @@ const Landingpage = () => {
                     alt="survey picture"
                   />
                   <br />
-                  Like most kids, I set ambitions high. But as I grew up, I
+                  Like most kids, I set my ambitions high. But as I grew up, I
                   didn't lose my drive. <br />
                   <br />
                   When I was 18, my ambitions were higher than the horizon.
@@ -182,17 +235,17 @@ const Landingpage = () => {
                   York to Colorado, to make my impact on the world.
                   <br />
                   <br />
-                  I got on the plane, with just a phone, my drivers license and
-                  a luggage bag containing my clothes, aside from about $600. I
-                  didn't have a short-term plan but I had a direction and a
-                  destination in mind.
+                  I got on the plane, with just a phone, my driver's license,
+                  and a luggage bag containing my clothes, aside from about
+                  $600. I didn't have a short-term plan but I had a direction
+                  and a destination in mind.
                   <br />
                   <br /> As soon as I got to a motel, I figured that I needed to
-                  secure my stay, so right away, I hammered away with fulltime
-                  jobs.
+                  secure my stay, so within a few days, I started to hammer away
+                  with full-time jobs.
                   <br />
                   <br />
-                  With an abundance of energy and a knack for adventure I was
+                  With an abundance of energy and a knack for adventure, I was
                   very confident. I guess a bit too confident as my first job
                   was not ideal for me at the time.
                   <br />
@@ -210,10 +263,10 @@ const Landingpage = () => {
                   to survey.
                   <br />
                   <br />
-                  I knocked on their doors, introduced myself and chatted with
-                  them while giving them surveys about political issues, then I
-                  collected their names and emails. Each day, I interviewed up
-                  to around 85 people face to face. <br />
+                  I knocked on their doors, introduced myself, and chatted with
+                  them while surveying them about political issues, collectng
+                  their names and theur emails. Each day, I interviewed up to
+                  around 85 people face to face. <br />
                   <br />
                   As a communicative person, that was an easy job for me, I
                   enjoyed surveying people and excelled at it.
@@ -244,14 +297,15 @@ const Landingpage = () => {
                   Employee.
                   <br />
                   <br />
-                  As happy as I was to achieve that, I realized that I pretty
-                  much secured the job. So on the fourth day, I finally took my
-                  finger off the tablet and slowed down a bit as to let others
-                  get awarded as well at the end of the day and as to not
-                  demoralize my colleagues. They, also, need a free smoothie.
+                  As happy as I was to achieve that, I realized that I had
+                  pretty much secured the job. So on the fourth day, I finally
+                  took my finger off the tablet and slowed down a bit so as to
+                  let others get awarded as well at the end of the day and as to
+                  not demoralize my colleagues. They, also, need a free
+                  smoothie.
                   <br />
                   <br />
-                  With my marketing experience, people skills and ability to
+                  With my marketing experience, people skills, and ability to
                   effectively interview people, I can provide you with:
                   <br />
                   <br />
@@ -262,12 +316,12 @@ const Landingpage = () => {
                     </li>
                     <li>
                       <strong>customized surveys.</strong> So you put your
-                      finger on the pulse of your market, can understand your
-                      business better and improve your products.
+                      finger on the pulse of your market, understand your
+                      business better, and improve your products.
                     </li>
                     <li>
                       <strong>qualified leads.</strong> So you have a larger
-                      list of qualified prospects for followup marketing
+                      list of qualified prospects for follow-up marketing
                       campaigns.
                     </li>
                   </ul>
@@ -297,7 +351,7 @@ const Landingpage = () => {
                   <h3 className=" text-dark h1">Well-Read On Copywriting</h3>{" "}
                   <br />
                   Most copywriters fail because they lack dedication, knowledge
-                  and passion. In the past 4 years{" "}
+                  and passion. In the past 4 years,{" "}
                   <u>
                     <strong>I’ve read</strong> about <strong>49 books.</strong>
                   </u>{" "}
@@ -314,7 +368,7 @@ const Landingpage = () => {
                   <br />
                   <br />
                   You can expect me to apply my knowledge of the following best
-                  marketing books of all-time, in writing your copy:
+                  marketing books of all time, in writing your copy:
                   <br />
                   <br />
                   <ul>
@@ -325,7 +379,7 @@ const Landingpage = () => {
                       <strong>Tested Advertising Methods</strong> by John Caples
                     </li>
                     <li>
-                      <strong>The Adweek Copywrting Handbook </strong>by Joseph
+                      <strong>The Adweek Copywriting Handbook </strong>by Joseph
                       Sugarman
                     </li>
                     <li>
@@ -377,11 +431,11 @@ const Landingpage = () => {
                   <br />
                   <h4>Entrepreneurial and Marketing Software Solutions</h4>
                   <br /> After I taught myself programmingƒOneƒ at 14 years old
-                  with programming languages such as HTML, JavaScript and CSS,
+                  with programming languages such as HTML, JavaScript, and CSS,
                   I, then, enrolled in Computer Science classes at New Paltz
                   High School. A few years after graduating High School and In
                   May of 2022, I completed a $15,000 Software Engineering
-                  bootcamp at General Assembly.
+                  Bootcamp at General Assembly.
                   <br /> Feel free to check out my
                   <a href="https://omarkhalil.netlify.app/" target="_blank">
                     software development portfolio website
@@ -395,13 +449,12 @@ const Landingpage = () => {
                 <Fade bottom>
                   <br />
                   <br />
-                  As a Full-Stack Software Engineer, I can develop the
-                  Client-Side and Server-Side of your website. I know how to
-                  design the layout, graphics and client-side of the application
-                  as well as the behind the scenes functionality such as setting
-                  up and managing your databases. That means I can engineer all
-                  aspects of your web application. In case you need that extra
-                  help.
+                  As a Full-Stack Software Engineer, I can develop the Client
+                  Side and Server Side of your website. I know how to design the
+                  layout, graphics, and interface of the application as well as
+                  the behind-the-screen functionality such as setting up and
+                  managing your databases. That means I can engineer all aspects
+                  of your web application. In case you need that extra help.
                   <br />
                   <br />
                   This website was, in fact, fully designed and developed by me
@@ -421,22 +474,24 @@ const Landingpage = () => {
             <br />
             <p className="h1 text-dark">
               <Fade left>
-                <h3 className=" text-dark h1 ">
-                  Entrepreneurially Intelligent
-                </h3>{" "}
+                <h3 className=" text-dark h1 ">The Entrepreneurial Mindset</h3>{" "}
               </Fade>
               <Fade bottom>
                 <br />
-                I have 100s of business ideas running through my mind per month.
-                I’ve written copy for many businesses of mine and I can write
-                copy for just about any business idea.
+                For a true entrepreneur, it isn't uncommon to have 100s of
+                life-improving, profitable business ideas. In itself, that's a
+                rare skill. I’ve written copy for many businesses of mine and I
+                can write copy for just about any business idea. When you add my
+                software capabilities with those skills, you've got a recipe for
+                wealth.
                 <br />
                 <br /> Robert Kiyosaki accurately suggested in ‘Rich Dad, Poor
                 Dad,’ that working for experience leads to more monetary success
-                than working for money. That's why I'd like to work with you as
-                long as you're an intelligent and entrepreneurially-spirited
-                individual who has a profitable business and that's why I offer
-                flexible payment plans.
+                than working for money. That's why I'd like to work with an
+                entrepreneurially-spirited individual who's got a good and
+                profitable product or service. My success is your success. This
+                is why, whatever your budget is, I offer you flexible payment
+                plans.
               </Fade>
             </p>{" "}
             <br />
@@ -444,7 +499,7 @@ const Landingpage = () => {
             <Fade left>
               <p className="h1 text-dark">
                 <h3 className="h1 subhead">
-                  Bilingual, Coherent and Articulate
+                  Bilingual, Coherent, and Articulate
                 </h3>
                 <br />
                 Knowing the correct words to use and their correct arrangement
@@ -454,15 +509,15 @@ const Landingpage = () => {
                 <br />
                 While I can read, write and speak English fluently, My native
                 language is, if you couldn't guess, Arabic. While some people
-                assume that non-native English speakers are not as capable than
+                assume that non-native English speakers are not as capable as
                 native speakers, research shows that being bilingual comes with
-                some exlusive strengths. <br />
+                some exclusive strengths. <br />
                 <br />
                 Studies have shown that bilingual individuals outperform
-                monolinguals in problem solving and perceptual focusing. With
+                monolinguals in problem-solving and perceptual focusing. With
                 more tools for self-expression and unique capabilities, I can
-                write one-of-a-kind marketing piece that grabs MORE attention,
-                inspires MORE interest, builds MORE desire and gets MORE
+                write a one-of-a-kind marketing piece that grabs MORE attention,
+                inspires MORE interest, builds MORE desire, and gets MORE
                 prospects to take ACTION.
               </p>
             </Fade>
@@ -521,18 +576,18 @@ const Landingpage = () => {
               </a>{" "}
               <br />
               While I have read many books on Marketing and it’s great to read
-              the best copywriting books of all-time, Knowing how to put this
+              the best copywriting books of all time, Knowing how to put this
               information to practice is the most important thing.
               <br />
               <br />
-              As a copywriter I have completed over 4 courses on Copywriting and
-              Marketing. And I am certified for partaking in Copywriting
+              As a copywriter, I have completed over 4 courses in Copywriting
+              and Marketing. And I am certified for partaking in Copywriting
               courses.
               <br />
               <br />
               <br />
               <br />
-              The courses that I’ve currently have completed are:
+              The courses that I’ve currently completed are:
               <br />
               <br />
               <ul>
@@ -564,7 +619,7 @@ const Landingpage = () => {
           <div id="offer">
             <Bounce>
               <h3 className="subhead h1 text-success  ">
-                I Have A Special Offer That Suits Anyones Circumstances
+                I Have A Special Offer That Suits Anyone's Circumstances
               </h3>
             </Bounce>
             <br />
@@ -578,9 +633,9 @@ const Landingpage = () => {
                 that you have an interesting product or service. If not we can
                 still make money.
                 <br />
-                <br /> if you want copy that converts prospect into customers,
-                enter your name and email address to set up an appointment with
-                me ASAP.
+                <br /> if you want marketing copy that converts prospects into
+                customers, enter your name and email address to set up an
+                appointment with me ASAP.
                 <br />
                 <br />
                 After submitting your name and email address, you'll immediately
@@ -601,7 +656,7 @@ const Landingpage = () => {
                   <h5 className="subhead h4 text-dark">
                     Sign up before <u>June, 1st 2023</u>
                     <br />
-                    You can schedule the first consultaton
+                    You can schedule the first consultation
                     <br /> with me, discussing a plan of action, <br />
                     <strong>Absolutely FREE</strong>
                     <br />
@@ -610,7 +665,7 @@ const Landingpage = () => {
                     </s>{" "}
                     but if you act now you pay{" "}
                     <u className="text-success">$0.</u> <br />
-                    no credit card required.
+                    no credit card is required.
                   </h5>
                 </div>
               </Fade>
@@ -682,7 +737,7 @@ const Landingpage = () => {
                     className="checkmark"
                   />
                   <strong>Certifications.</strong> Having multiple certificates
-                  guarantees you reliable copy
+                  means I can deliver reliable marketing copy.
                 </li>
                 <li>
                   <AiFillCheckCircle
@@ -690,7 +745,7 @@ const Landingpage = () => {
                     className="checkmark"
                   />
                   <strong>Surveys.</strong> Experienced in Public Opinion
-                  Gathering I provide valueable market insights helping you
+                  Gathering I provide valuable market insights helping you
                   navigate your industry with sharpness.
                 </li>
                 <li>
@@ -698,8 +753,8 @@ const Landingpage = () => {
                     color="yellowgreen"
                     className="checkmark"
                   />
-                  <strong>Expertise.</strong> With thorough knowledge about
-                  marketing you get a never-ending stream of ideas to improve
+                  <strong>Expertise.</strong> With my thorough knowledge of
+                  marketing, you get a never-ending stream of ideas to improve
                   business.
                 </li>
                 <li>
@@ -708,7 +763,7 @@ const Landingpage = () => {
                     className="checkmark"
                   />
                   <strong>Modern Marketing.</strong> My knowledge and expertise
-                  in Software Development gives you an edge in modern maketing
+                  in Software Development give you an edge in modern marketing.
                 </li>
                 <li>
                   <AiFillCheckCircle
@@ -723,7 +778,7 @@ const Landingpage = () => {
                     color="yellowgreen"
                     className="checkmark"
                   />
-                  <strong>Negotiable Pricing.</strong> In the beginning of
+                  <strong>Negotiable Pricing.</strong> At the beginning of
                   business every dollar counts. That's why you get to work with
                   someone who understands your needs.{" "}
                 </li>

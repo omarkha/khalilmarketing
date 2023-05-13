@@ -502,15 +502,18 @@ article img {
   background-blend-mode: lighten;
 }
 
-#landingpage-banner .landingpage-logo {
+#landingpage-banner .landingpage-headline {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background: linear-gradient(
     to bottom,
     rgba(255, 255, 255, 1),
-    rgb(160, 215, 255, 0.15)
+    rgb(255, 255, 215, 1)
   );
-  box-shadow: 0 -21px 55px #fff;
+  box-shadow: 0 0 21px rgb(255, 255, 215, 1);
 
-  padding: 55px 89px;
+  padding: 21px 89px;
   border-radius: 21px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -523,4 +526,24 @@ article img {
 }
 .post h3 {
   font-size: 21px;
+}
+
+.scrolldown {
+  width: fit-content;
+  margin: 55px auto;
+  padding: 21px;
+  background: linear-gradient(
+    rgba(255, 255, 255, 1),
+    rgba(255, 255, 255, 0.15)
+  );
+  border-radius: 21px;
+}
+
+#scrolldown {
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  width: 89px;
+  height: 89px;
 }
