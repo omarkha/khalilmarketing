@@ -21,7 +21,7 @@ code {
   align-self: center;
   justify-self: center;
   padding: 0;
-  text-shadow: 0 0 5px rgb(40, 40, 255);
+  text-shadow: 0 0 5px #000;
   font-size: 34px;
 }
 
@@ -77,6 +77,11 @@ a:hover {
   flex-direction: row;
   gap: 21px;
   font-size: 21px;
+}
+
+.navbar-brand span {
+  font-size: 21px;
+  text-shadow: 0 0 8px #000;
 }
 
 .navlogo {
@@ -373,6 +378,7 @@ footer ul {
 article img {
   margin: 21px;
   width: 38%;
+
   border-radius: 13px;
 }
 
@@ -546,4 +552,22 @@ article img {
   margin: 0 auto;
   width: 89px;
   height: 89px;
+}
+
+#omar-picture {
+  margin: 21px;
+  width: 38%;
+  border-radius: 13px;
+  height: 377px;
+  background-size: cover;
+  background-position: top;
+  background-position-y: -89px;
+  background-color: rgb(0, 40, 160);
+  background-blend-mode: lighten;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+#omar-picture h2 {
 }

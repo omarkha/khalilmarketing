@@ -21,7 +21,7 @@ const Navbar = () => {
             className="navlogo"
             style={{ backgroundImage: `url(${logo})` }}
           ></div>
-          <span className="techra">Techra</span>
+          <span className="techra">Khalil Marketing</span>
         </Link>
 
         <div className="collapse navbar-collapse" id="navbarTogglerDemo03">

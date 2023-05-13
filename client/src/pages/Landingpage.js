@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import survey from "../media/survey2.jpg";
 import gem from "../media/gem.jpg";
 import beethoven from "../media/Beethoven.jpg";
+import omar from "../media/mypicture5.jpg";
 import alison from "../media/alison.avif";
 import bootcamp from "../media/bootcamp.png";
 import coding from "../media/coding.jpg";
@@ -84,8 +85,7 @@ const Landingpage = () => {
           <div className="landingpage-logo">
             <div style={{ backgroundImage: `url(${logo})` }}></div>
             <h1>
-              <span className="techra">Techra</span> <br />
-              Marketing Solutions
+              <span className="techra">Khalil Marketing</span> <br />
             </h1>
           </div>
           <div>
@@ -109,14 +109,15 @@ const Landingpage = () => {
                 <Fade left>
                   <img src={gem} style={{ float: "left" }} />
                   <br />
+                  <br />
                   A profitable business idea emerged in your mind, and you
                   stopped beating around the books. After working hard, you
                   created an awesome product that you can't help but sit back,
                   look at, and marvel over. Now it's time to start, get paid,
                   and celebrate. Right? <br />
                   <br />
-                  The answer will be 'absolutely, yes.' as soon as you learn
-                  about this keyword.
+                  The answer is 'absolutely, YES.' as soon as you learn about
+                  this keyword.
                   <br />
                   <br />
                   This secretive keyword I'm talking about is the word
@@ -124,6 +125,8 @@ const Landingpage = () => {
                   all the obstacles you face as a new business owner. Such as an
                   unfruitful online presence, lack of time, and shortage of
                   funds.
+                  <br />
+                  <br />
                   <br />
                   <br />
                 </Fade>
@@ -137,8 +140,8 @@ const Landingpage = () => {
                   <br />A copywriter is like a Musical Composer. But instead, he
                   composes attention-grabbing, interest-evoking,
                   desire-building, action-prompting, and persuasive written
-                  paragraphs. These emotionally moving melodies that are struck
-                  by each paragraph cast a buying spell on your ideal customers.
+                  paragraphs. The emotionally moving melodies that are struck by
+                  each paragraph cast a buying spell on your ideal customers.
                   <br />
                   <br />
                   When the prospect is persuaded, they will run, grab their
@@ -162,10 +165,13 @@ const Landingpage = () => {
                   years.
                   <br />
                   <br />
+                  <br />
+                  <br />
                 </Fade>
-                <h4 className="text-danger">
+                <h4 className="text-primary">
                   But There's a Challenging Obstacle
                 </h4>
+                <br />
                 <br />
                 The bad news is that 95% of copywriters are novices who are not
                 up to snuff, and a good copywriter may cost more than you could
@@ -182,33 +188,40 @@ const Landingpage = () => {
                 that matters is that you have created a profitable product.
                 <br />
                 <br />
+                <br />
+                <br />
                 <Fade bottom>
                   <h4 className="text-success">
-                    <u>What I Can Do For You</u>
+                    <u>How I Can Save You Time and Make You Money</u>
                   </h4>
                   <br />
                   Hi There, My name is Omar S. Khalil and I've studied the art
-                  and science of copywriting for over 5 years. As an experienced
-                  Copywriter from a small town in upstate New York, I'm
-                  qualified, certified and ready to help your business survive
-                  through the adversity of the starting phase and have a
+                  and science of copywriting for over 5 years.{" "}
+                  <div
+                    id="omar-picture"
+                    alt="Omar Khalil's picture"
+                    style={{ backgroundImage: `url(${omar})`, float: "left" }}
+                  >
+                    <h2 className="text-light">Omar S. Khalil</h2>
+                  </div>
+                  As an experienced Copywriter from a small town in upstate New
+                  York, I'm qualified, certified and ready to help your business
+                  survive through the adversity of its starting phase and have a
                   prosperous future.
                   <br />
-                  <br />I can effectively and creatively write converting
-                  marketing copy for any type of business. I will win you
-                  qualified leads, win you those important initial sales and
-                  provide you with the continuous marketing you need to be able
-                  to earn money year after year.
+                  <br />I can write converting marketing copy for any type of
+                  business. I'm confident and pumped to win you qualified leads,
+                  win you those important initial sales and provide you with the
+                  continuous marketing you need to earn money year after year.
                   <br />
                   <br /> With a bit of hard work and patience, you'll eventually
                   begin living the life you've been dreaming about and working
                   hard to achieve.
                   <br />
-                  <br /> I continuously tweak and perfect the marketing aspect
-                  of your business, so instead of being overwhelmed and
-                  exhausted by a field of study that takes years to master, you
-                  can comfortably spend your time on what you enjoy best:
-                  tweaking and perfecting your products.
+                  <br /> I continue tweaking and perfecting your marketing, so
+                  instead of being overwhelmed and exhausted by a field of study
+                  that takes years to master, you can comfortably spend your
+                  time tweaking and perfecting your products.
                   <br />
                   <br />
                 </Fade>
@@ -219,7 +232,7 @@ const Landingpage = () => {
               <article>
                 <p className="h1 text-dark">
                   <h3 className=" text-dark h1">
-                    The Story of My First Marketing Job
+                    The Story of a Young Bulldozer
                   </h3>
                   <img
                     src={survey}
@@ -227,12 +240,13 @@ const Landingpage = () => {
                     alt="survey picture"
                   />
                   <br />
-                  Like most kids, I set my ambitions high. But as I grew up, I
-                  didn't lose my drive. <br />
+                  Like most young kids, I enjoyed looking up at the stars. Yet,
+                  as I grew up and became an adult, I decided to reach for them.
                   <br />
-                  When I was 18, my ambitions were higher than the horizon.
-                  Therefore, I moved from my small, little town in upstate New
-                  York to Colorado, to make my impact on the world.
+                  <br /> At 18 years old, my ambitions were higher than the
+                  horizon. Therefore, I moved from my small, little town in
+                  upstate New York to Colorado Springs, to pursue my dreams and
+                  make my impact on the world.
                   <br />
                   <br />
                   I got on the plane, with just a phone, my driver's license,
@@ -244,6 +258,8 @@ const Landingpage = () => {
                   secure my stay, so within a few days, I started to hammer away
                   with full-time jobs.
                   <br />
+                  <br />
+                  <h4 className="text-success">And My Journey Began</h4>
                   <br />
                   With an abundance of energy and a knack for adventure, I was
                   very confident. I guess a bit too confident as my first job
@@ -278,35 +294,40 @@ const Landingpage = () => {
             <Fade right>
               <article>
                 <h3 className=" text-dark h1">
-                  My First 3 Awards as a Marketing Professional
+                  My First 3 Awards as a Marketing Jaywalker
                 </h3>
                 <p className="h1 text-dark">
                   <img
                     src={award}
-                    style={{ float: "left" }}
+                    style={{ float: "right" }}
                     alt="survey picture"
                   />
                   <br />
                   <br />
-                  I promised the hiring manager that I'd do great, so as soon as
-                  I began working I wanted to do my best and prove my
-                  capabilities. I surprised even myself. In an office of over 30
-                  people in a building in downtown Colorado Springs, I
-                  outperformed all of my coworkers by collecting the most data
-                  and for the first three days in a row, I was Awarded Best
-                  Employee.
+                  I'm sitting down, talking to the hiring managers for my
+                  interview, and I promised them that I'd do great. I learned a
+                  few lessons from my salesman job. So as soon as I began
+                  working I wanted to do my best and prove my capabilities. And,
+                  I was surprised, myself.
+                  <br />
+                  <br /> There were over 30 people working with me, in the
+                  office I worked at, in downtown Colorado Springs. We got on
+                  the field on the first day and I put the pedal to the metal. I
+                  outperformed all of my coworkers by collecting the most data.
+                  Not only for just one day but I was Awarded For Being The Best
+                  Employee on my first three days.
                   <br />
                   <br />
-                  As happy as I was to achieve that, I realized that I had
-                  pretty much secured the job. So on the fourth day, I finally
+                  I could've kept going. But, as happy as I was to achieve that,
+                  I realized that I had pretty much secured the job and I didn't
+                  want to hog the spotlight. So on the fourth day, I finally
                   took my finger off the tablet and slowed down a bit so as to
                   let others get awarded as well at the end of the day and as to
-                  not demoralize my colleagues. They, also, need a free
-                  smoothie.
+                  not demoralize my colleagues. They also need free smoothies.
                   <br />
                   <br />
-                  With my marketing experience, people skills, and ability to
-                  effectively interview people, I can provide you with:
+                  With my people skills and ability to effectively interview
+                  people, I can provide you with:
                   <br />
                   <br />
                   <ul>
@@ -422,20 +443,28 @@ const Landingpage = () => {
                 <Zoom>
                   <br />
                   <br />
-                  Modern technology has infiltrated the field of marketing. It
-                  used to be just a copywriter with a typewriter writing
-                  marketing materials. Now companies are utilizing software
-                  developers to engineer software that optimizes their marketing
-                  campaigns. But I'm not new to coding either.
+                  Modern technology has infiltrated the field of marketing. A
+                  couple of decades ago, It was just a copywriter with a
+                  typewriter crafting marketing materials. Now companies are
+                  utilizing software developers to engineer software that
+                  optimizes their marketing campaigns. Luckily, I'm not new to
+                  coding either.
                   <br />
                   <br />
-                  <h4>Entrepreneurial and Marketing Software Solutions</h4>
-                  <br /> After I taught myself programmingƒOneƒ at 14 years old
-                  with programming languages such as HTML, JavaScript, and CSS,
-                  I, then, enrolled in Computer Science classes at New Paltz
-                  High School. A few years after graduating High School and In
-                  May of 2022, I completed a $15,000 Software Engineering
-                  Bootcamp at General Assembly.
+                  <br />
+                  before I knew what marketing even meant, I loved technology
+                  and software development in particular. At the age of 14, I
+                  taught myself programming through online courses. I, then,
+                  enrolled in Computer Science classes in High School to further
+                  develop my skills. And a few years after graduating High
+                  School and In May of 2022, I became a true full-stack software
+                  engineer upon completing General Assembly's $15,000 Software
+                  Engineering Bootcamp.
+                  <br />
+                  <br />
+                  <Bounce>
+                    <img src={bootcamp} alt="Coding bootcamp image" />
+                  </Bounce>
                   <br /> Feel free to check out my
                   <a href="https://omarkhalil.netlify.app/" target="_blank">
                     software development portfolio website
@@ -443,23 +472,22 @@ const Landingpage = () => {
                   <br />
                   <br />
                 </Zoom>
-                <Bounce>
-                  <img src={bootcamp} alt="Coding bootcamp image" />
-                </Bounce>
+
                 <Fade bottom>
                   <br />
+                  <h4>Entrepreneurial and Marketing Software Solutions</h4>
                   <br />
                   As a Full-Stack Software Engineer, I can develop the Client
-                  Side and Server Side of your website. I know how to design the
-                  layout, graphics, and interface of the application as well as
-                  the behind-the-screen functionality such as setting up and
-                  managing your databases. That means I can engineer all aspects
-                  of your web application. In case you need that extra help.
+                  Side and Server Side of your website. So I know how to design
+                  the layout, graphics, and interface of the application. As
+                  well as developing the behind-the-screen functionality such as
+                  setting up and managing databases. That means, in the case you
+                  need that extra help, I can even develop your web application.
                   <br />
                   <br />
                   This website was, in fact, fully designed and developed by me
                   personally. I don't usually rely on other developers for my
-                  own entrepreneurial projects. Though, I have a network of
+                  own entrepreneurial projects. But I do have a network of
                   engineers that I can turn to if I ever need to.
                   <br />
                   <br />
@@ -467,7 +495,7 @@ const Landingpage = () => {
                   mechanics of your online business, You can feel comfortable
                   knowing you're getting reliable business solutions. I can help
                   you build smarter, more effective marketing campaigns that
-                  match the best in the industry.
+                  match the best in your industry.
                 </Fade>
               </p>
             </article>
