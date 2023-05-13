@@ -90,7 +90,7 @@ const Homepage = () => {
           <br />
           <p>Click on the button below to...</p>
           <Link to="/landingpage" className="button-3">
-            Stark Making Money
+            Start Making Money
           </Link>
           <br />
           <br />
