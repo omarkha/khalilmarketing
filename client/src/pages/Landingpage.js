@@ -341,8 +341,8 @@ const Landingpage = () => {
                 <br />
                 <ul>
                   <li>
-                    <strong>testimonials.</strong> So you can close more sales
-                    and build more trust with prospects.
+                    <strong>testimonials.</strong> So you build more trust with
+                    prospects and close more sales.
                   </li>
                   <li>
                     <strong>customized surveys.</strong> So you put your finger

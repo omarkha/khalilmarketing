@@ -42,16 +42,6 @@ const Homepage = () => {
           </div>
         </div>
       </Fade>{" "}
-      <Fade>
-        <iframe
-          id="home-intro-video"
-          src="https://www.youtube.com/embed/ryz-O13WmqE"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen
-        ></iframe>
-      </Fade>
       <div className="container">
         <section className="homepage-info py-5">
           <br />
