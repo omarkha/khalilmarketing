@@ -596,10 +596,21 @@ article img {
 
 @media all and (max-width: 400px) {
   body {
+    width: fit-content;
+    margin: 0;
+    background: #f453ff;
+    padding: 0;
+  }
+  .navbar {
+    height: 89px;
+    background: #fff;
+    color: #fff;
     width: 100%;
     margin: 0;
-    background: #fff;
-    padding: 0;
+  }
+  nav {
+    width: 100%;
+    margin: 0;
   }
   .certificate {
     margin: 0;
