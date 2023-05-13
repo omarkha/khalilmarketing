@@ -407,15 +407,12 @@ const Landingpage = () => {
                   task (e.g., Bialystok et al., 2004; for a general review, see
                   Bialystok and Craik, 2010)."{" "}
                 </div>
-                With more tools for self-expression, access to different
-                mindsets and perceptions, being freer in explaining things,
-                freer in my thinking and being a more powerful thinker, I can
-                write for you one-of-a-kind marketing pieces that persuade
-                prospects, grab MORE attention, inspire MORE interest, build
-                MORE desire, and get MORE prospects to take ACTION.
-                <br />
-                <br />I have lived in the US since 12 years old. I'm currently
-                27 years old. So I've been learning English for 15 years.
+                With access to different mindsets and perceptions, and more
+                tools for self-expression, I am actually freer in my thinking
+                and I am more flexible in explaining things. Those are more
+                reasons why I can write a one-of-a-kind marketing piece that
+                grabs MORE attention, inspires MORE interest, builds MORE
+                desire, and gets MORE prospects to take ACTION.
               </p>
             </Fade>
             <br />
@@ -428,7 +425,7 @@ const Landingpage = () => {
                 <h3 className=" text-dark h1">Well-Read On Copywriting</h3>{" "}
                 <br />
                 Most copywriters fail because they lack dedication, knowledge
-                and passion. In the past 4 years,{" "}
+                and passion. In the past 5 years,{" "}
                 <u>
                   <strong>I’ve read</strong> about <strong>49 books.</strong>
                 </u>{" "}
@@ -620,31 +617,14 @@ const Landingpage = () => {
                   Taught and Certified with CPD (Continuing Professional
                   Development) Accreditation
                 </h3>{" "}
-                <a href="https://alison.com/user/pdf/4698/1" target="_blank">
-                  <Bounce>
-                    <img
-                      className="certificate"
-                      target="_blank"
-                      id="alisoncertificate"
-                      src={alisoncertificate}
-                      style={{
-                        float: "left",
-                        margin: "34px",
-                      }}
-                    />
-                  </Bounce>
-                </a>{" "}
                 <br />
-                While I have read many books on Marketing and it’s great to read
-                the best copywriting books of all time, Knowing how to put this
-                information to practice is the most important thing.
+                While I have read many of the all-time best books on Copywriting
+                and have extensive knowledge about this particular field,
+                Knowing how to put this information to practice is the most
+                important thing.
                 <br />
                 <br />
-                As a copywriter, I have completed over 4 courses in Copywriting
-                and Marketing. And I am certified for partaking in Copywriting
-                courses.
-                <br />
-                <br />
+                I have completed several courses in Copywriting and Marketing.
                 <br />
                 <br />
                 The courses that I’ve currently completed are:
@@ -668,7 +648,21 @@ const Landingpage = () => {
                     <strong>Kopywriting Korse</strong> by Neville Medhora
                   </li>
                 </ul>
-              </p>
+                <br />
+                I've also completed two CPD accredited copywriting courses
+                during this year and I'm properly certified by a copywriter with
+                25 years of professional experience named Marcia Yudkin.
+              </p>{" "}
+              <a href="https://alison.com/user/pdf/4698/1" target="_blank">
+                <Bounce>
+                  <img
+                    className="certificate"
+                    target="_blank"
+                    id="alisoncertificate"
+                    src={alisoncertificate}
+                  />
+                </Bounce>
+              </a>{" "}
             </article>
           </Fade>
           <br />
