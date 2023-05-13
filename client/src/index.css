@@ -8,7 +8,7 @@ body {
   font-family: "Comme", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: rgb(255, 255, 0);
+  background-color: rgb(255, 255, 255);
 }
 
 code {
@@ -598,22 +598,22 @@ article img {
   body {
     width: 100%;
     margin: 0;
+    background: #fff;
     padding: 0;
   }
   .certificate {
     margin: 0;
   }
   .landingpage {
-    background: rgb(215, 215, 215);
+    background: #fff;
     margin: 0;
-    padding: 0;
   }
   article {
     position: relative;
     left: 0;
     padding: 0;
     background-color: #fff;
-    margin: 0;
+    margin: 55px 0;
     border: 0;
     width: 100%;
     border-radius: 13px;
@@ -626,11 +626,6 @@ article img {
     border-radius: 13px;
   }
   .container {
-    margin: 0;
-    padding: 0;
-    width: 100vw;
-  }
-  #mobile-container {
     margin: 0;
     padding: 0;
     width: 100vw;
@@ -702,7 +697,7 @@ article img {
     font-size: 21px;
   }
   .copy {
-    padding: 0;
+    padding: 8px;
   }
   input[type="text"] {
     text-align: center;
@@ -715,5 +710,21 @@ article img {
     width: 100%;
     margin: 0;
     padding: 0;
+  }
+  #landingpage-banner .landingpage-headline {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 1),
+      rgb(255, 255, 215, 1)
+    );
+    box-shadow: 0 0 0 rgb(255, 255, 215, 1);
+
+    padding: 21px 89px;
+    border-radius: 21px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   }
 }

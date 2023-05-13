@@ -236,7 +236,7 @@ const Landingpage = () => {
               </Fade>
             </p>{" "}
           </article>
-          <br />
+
           <Fade left>
             <article>
               <p className="h1 text-dark">
@@ -302,9 +302,7 @@ const Landingpage = () => {
           </Fade>
           <Fade right>
             <article>
-              <h3 className=" text-dark h1">
-                My First 3 Awards as a Marketing Jaywalker
-              </h3>
+              <h3 className=" text-dark h1">My First 3 Marketing Awards</h3>
               <p className="h1 text-dark">
                 <img
                   src={award}
@@ -357,7 +355,7 @@ const Landingpage = () => {
               </p>
             </article>
           </Fade>
-          <br />
+
           <Bounce bottom>
             <div className="testimonial text-light">
               “My experience with Omar in my work as a restaurant owner has been
@@ -668,8 +666,11 @@ const Landingpage = () => {
           <br />
           <br />
           <div>
-            <Link className="h3 bg-warning py-2 px-5" to="/portfolio">
-              Click Here to Check Out My Copywriting Portfolio
+            <Link to="/portfolio">
+              <h5 className="h3 bg-warning py-2 px-5">
+                {" "}
+                Click Here to Check Out My Copywriting Portfolio
+              </h5>
             </Link>
           </div>
           <br />
