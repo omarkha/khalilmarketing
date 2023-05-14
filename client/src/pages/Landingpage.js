@@ -227,9 +227,7 @@ const Landingpage = () => {
               <br />
               <Fade bottom>
                 <h4 className="text-success">
-                  <u>
-                    A Copywriter Who Offers You Better Services For Less Money
-                  </u>
+                  <u>An All-in-One Copywriter You Can Afford</u>
                 </h4>
                 <br />
                 <br />
