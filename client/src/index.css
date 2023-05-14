@@ -543,7 +543,6 @@ article img {
     rgba(255, 255, 255, 1),
     rgb(255, 255, 215, 1)
   );
-  box-shadow: 0 0 21px rgb(255, 255, 215, 1);
 
   padding: 21px 89px;
   border-radius: 21px;

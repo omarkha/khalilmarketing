@@ -550,28 +550,26 @@ const Landingpage = () => {
                 />
                 <br />
                 <br />
-                My ambitions reached farther than the horizon, when I was 18
-                years old. Therefore, I moved from my small, little town in
-                upstate New York to Colorado Springs, to pursue my dreams and
-                make my impact on the world.
+                I moved from my small, little town in upstate New York to
+                Colorado Springs, at the age of 18, to pursue my dreams and make
+                my impact on the world.
                 <br />
                 <br />
-                I began working as a Salesman, for my first job in Colorado. The
-                Kirby Company tasked me with selling costly Vacuum Cleaners. But
-                I didn't possess the sales skills to secure a sufficient income
-                whilst getting paid on commission. So, in order to secure my
-                stay in Colorado, I moved on, after three weeks, in search for a
-                job with a stable wage.
+                I began working as a Salesman. The Kirby Company tasked me with
+                selling costly Vacuum Cleaners. But I didn't possess the sales
+                skills to secure a sufficient income whilst getting paid on
+                commission. So, in order to secure my stay in Colorado, I moved
+                on, after three weeks, in search for a job with a stable wage.
                 <br />
-                <br /> That's when I struck gold.
+                <br /> That's when I begun to win trophies.
                 <br />
                 <br />
-                I applied for and received an interview at Black Diamond
-                Outreach; a Marketing company. During the interview, I was
-                sitting down, talking to the hiring managers, and I promised
-                them that I'd do great. Afterall, I learned a few lessons from
-                my salesman job. So as soon as I began working I wanted to do my
-                best and prove my capabilities. And, I was surprised, myself.
+                I got an interview at a marketing company named Black Diamond
+                Outreach. During the interview, I was sitting down, talking to
+                the hiring managers, and I promised them that I'd do great.
+                Afterall, I learned a few lessons from my salesman job. So as
+                soon as I began working I wanted to do my best and prove my
+                capabilities. And, I was surprised, myself.
                 <br />
                 <br />
                 There, I went canvassing on the field, with a tablet that showed
