@@ -541,7 +541,9 @@ const Landingpage = () => {
 
           <Fade right>
             <article>
-              <h3 className=" text-dark h1">My First 3 Marketing Awards</h3>
+              <h3 className=" text-dark h1">
+                Award Winning Marketing Professional
+              </h3>
               <p className="h1 text-dark">
                 <img
                   src={award}
@@ -557,48 +559,39 @@ const Landingpage = () => {
                 <br />
                 I began working as a Salesman. The Kirby Company tasked me with
                 selling costly Vacuum Cleaners. But I didn't possess the sales
-                skills to secure a sufficient income whilst getting paid on
-                commission. So, in order to secure my stay in Colorado, I moved
-                on, after three weeks, in search for a job with a stable wage.
+                skills to secure a sufficient income getting paid on commission.
+                So, to secure my stay, I moved on, after three weeks, in search
+                for a job with a stable wage.
                 <br />
                 <br /> That's when I begun to win trophies.
                 <br />
                 <br />
                 I got an interview at a marketing company named Black Diamond
-                Outreach. During the interview, I was sitting down, talking to
-                the hiring managers, and I promised them that I'd do great.
-                Afterall, I learned a few lessons from my salesman job. So as
-                soon as I began working I wanted to do my best and prove my
-                capabilities. And, I was surprised, myself.
+                Outreach. I was sitting down, talking to the hiring managers,
+                and I promised them that I'd do great. Afterall, I learned a few
+                lessons from my salesman job. So as soon as I began working I
+                wanted to give it my best and prove myself.
                 <br />
                 <br />
-                There, I went canvassing on the field, with a tablet that showed
-                a map pinpointing the locations of a list of people I was
-                assigned to survey.
+                With a tablet that had a map pinpointing homes I was assigned to
+                survey, I went canvassing on the field. I knocked on doors,
+                introduced myself, and chatted with people, collecting their
+                names, emails and answers. Each day, I surveyed up to 95 people
+                face to face. <br />
+                <br />
+                I worked with over 30 people at the office in downtown Colorado
+                Springs. When our crew got off the van and onto the field, on
+                the first day, I put my social skills to the peak and I
+                outperformed all of my coworkers. I collected the most data for
+                three days in a row and was Awarded The Best Employee.
                 <br />
                 <br />
-                I knocked on their doors, introduced myself, and chatted with
-                them while surveying them about political issues, collecting
-                their names, emails and answers. Each day, I interviewed up to
-                around 85 people face to face. <br />
-                <br />
-                There were over 30 people working with me, in the office I
-                worked at, in downtown Colorado Springs. We got on the field on
-                the first day and I put my social ability to its peak. I
-                outperformed all of my coworkers by collecting the most data.
-                Not only for just one day but I was Awarded For Being The Best
-                Employee on my first three days.
+                I could have kept my pace. But, after knowing that I secured the
+                job, I withheld from hogging the spotlight or denying others the
+                chance to shine. They also need free smoothies.
                 <br />
                 <br />
-                I could've kept going. But, as happy as I was to achieve that, I
-                realized that I had pretty much secured the job and I didn't
-                want to hog the spotlight. So on the fourth day, I finally took
-                my finger off the tablet and slowed down a bit so as to let
-                others get awarded as well at the end of the day and as to not
-                demoralize my colleagues. They also need free smoothies.
-                <br />
-                <br />
-                With my <strong>people skills</strong> and ability to
+                With excellent <strong>people skills</strong> and ability to
                 effectively interview people, I provide you with:
                 <br />
                 <br />
@@ -620,32 +613,6 @@ const Landingpage = () => {
               </p>
             </article>
           </Fade>
-          <article>
-            <p className="h1 text-dark">
-              <Fade left>
-                <h3 className=" text-dark h1 ">The Entrepreneurial Mindset</h3>{" "}
-              </Fade>
-              <Fade bottom>
-                <br />
-                For a true entrepreneur, it isn't uncommon to have 100s of
-                life-improving, profitable business ideas. In itself, that's a
-                rare skill. I’ve written copy for many businesses of mine and I
-                can write copy for just about any business idea. When you add my
-                software capabilities with those skills, you've got a recipe for
-                wealth.
-                <br />
-                <br /> Robert Kiyosaki accurately suggested in ‘Rich Dad, Poor
-                Dad,’ that working for experience leads to more monetary success
-                than working for money. That's why I'd like to work with an
-                entrepreneurially-spirited individual who's got a good and
-                profitable product or service. My success is your success. This
-                is another reason why, whatever your budget is, I offer you
-                flexible payment plans.
-              </Fade>
-            </p>{" "}
-            <br />
-            <br />
-          </article>
 
           {/* <Fade left>
               <p className="h1 text-dark">
