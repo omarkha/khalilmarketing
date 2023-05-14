@@ -12,6 +12,7 @@ import books from "../media/books.jpg";
 import award from "../media/award.png";
 import scrolldown from "../media/scrolldown.gif";
 import alisoncertificate from "../media/alison-certificate.png";
+import alisoncertificate2 from "../media/alison-certificate-2.png";
 import { AiFillCheckCircle } from "react-icons/ai";
 import logo from "../media/logo.png";
 import { Link } from "react-router-dom";
@@ -64,7 +65,7 @@ const Landingpage = () => {
           <div id="container" className="container">
             <div className="landingpage-headline">
               <h2 className="headline h1">
-                How This <u>One Secret Word</u> Can Make Your Startup 10x Richer
+                This <u>Secretive word</u> Whips Up Sales For You Within Days
               </h2>{" "}
               <br />
               <br />
@@ -723,13 +724,29 @@ const Landingpage = () => {
                 a PHD and 25 years of professional experience named Marcia
                 Yudkin.
               </p>{" "}
-              <a href="https://alison.com/user/pdf/4698/1" target="_blank">
+              <a
+                href="https://alison.com/certification/check/$2y$10$GLFOq0Gxvd7iQ5DxsSmfF.1x53HQGRUn0GADtnKDQicZM6m1md7xa"
+                target="_blank"
+              >
                 <Bounce>
                   <img
                     className="certificate"
                     target="_blank"
                     id="alisoncertificate"
                     src={alisoncertificate}
+                  />
+                </Bounce>
+              </a>{" "}
+              <a
+                href="https://alison.com/certification/check/$2y$10$.Bg0yhZy0.1qnqC88WKTv.fCQsDbIJIwHO.bOO1DfxFSuAVzDTQM."
+                target="_blank"
+              >
+                <Bounce>
+                  <img
+                    className="certificate"
+                    target="_blank"
+                    id="alisoncertificate"
+                    src={alisoncertificate2}
                   />
                 </Bounce>
               </a>{" "}
