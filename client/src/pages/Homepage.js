@@ -46,6 +46,8 @@ const Homepage = () => {
         <section className="homepage-info py-5">
           <br />
           <br />
+          <br />
+          <br />
           <Fade left>
             <div>
               <h3 className="text-primary subhead">
@@ -61,7 +63,8 @@ const Homepage = () => {
             </div>{" "}
           </Fade>
           <br />
-          <br />{" "}
+          <br /> <br />
+          <br />
           <Fade right>
             <div>
               <h3 className="text-primary subhead">Low Budget? No Problem!</h3>
@@ -72,6 +75,8 @@ const Homepage = () => {
               </p>
             </div>{" "}
           </Fade>
+          <br />
+          <br />
           <br />
           <br />
           <Fade left>
@@ -86,6 +91,8 @@ const Homepage = () => {
               </p>
             </div>{" "}
           </Fade>
+          <br />
+          <br />
           <br />
           <br />
           <p>Click on the button below to...</p>

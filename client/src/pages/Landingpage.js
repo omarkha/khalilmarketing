@@ -153,7 +153,7 @@ const Landingpage = () => {
                 <br />
                 When copywriters persuade prospects, they run to the drawers,
                 grab their wallets and enthusiastically give you their credit
-                card information with a big smile on their face.
+                card information with a slight smile on their face.
                 <br />
                 <br />
                 <br />
@@ -551,7 +551,7 @@ const Landingpage = () => {
                 <br />
                 <br />
                 I moved from my small, little town in upstate New York to
-                Colorado Springs, at the age of 18, to pursue my dreams and make
+                Colorado Springs, at the age of 18, to reach my goals and make
                 my impact on the world.
                 <br />
                 <br />
