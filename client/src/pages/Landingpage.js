@@ -114,26 +114,26 @@ const Landingpage = () => {
                 <img src={gem} style={{ float: "left" }} />
                 <br />
                 <br />
-                After generating a profitable idea, you quit beating around the
-                books, and you got to work. Now you possess an awesome product
-                that you can't help but sit back, look at, and marvel over!
-                Finally, it's time to launch, get paid, and celebrate. Right?{" "}
-                <br />
+                After generating a money-making business idea, you quit beating
+                around the books, and you got to work. Now you got an awesome
+                product that you can't help but sit back, look at, and marvel
+                over! Finally, it's time to launch, get paid, and celebrate.
+                Right? <br />
                 <br />
                 When you learn what this keyword means, the answer becomes
                 'absolutely, YES.'
                 <br />
                 <br />
-                Want to know which secretive keyword I'm talking about? No
-                problem. Your 'Yes' answer to financial success sits Within the
-                word 'Copywriter'. This word solves all the obstacles you face
-                as a new business owner, such as the unfruitful online presence,
-                lack of time, and shortage of funds.
+                Which secretive keyword I'm talking about? Ok. Your 'Yes' answer
+                to financial success sits Within the word 'Copywriter'. This
+                word solves all the obstacles you face as a new business owner,
+                such as the unfruitful online presence, lack of time, and
+                shortage of funds.
                 <br />
                 <br />
-                As soon as I learned the meaning of this particular word, I knew
-                I struck gold and I got the key to achieving my ambitions.{" "}
-                <br />
+                As soon as I learned the meaning of this particular word, I
+                quickly realized that I got the key to reaching financial
+                abundance. <br />
                 <br />
                 <br />
                 <br />
@@ -144,29 +144,29 @@ const Landingpage = () => {
                 </h4>
                 <br />
                 <img src={beethoven} style={{ float: "right" }} />
-                Like a Musical Composer a Copywriter orchestrates emotionally
-                moving melodies that are struck by each paragraph casting a
-                buying spell on your ideal customers. Specifically speaking, he
+                Like a Musical Composer a Copywriter orchestrates moving
+                melodies that are struck by each paragraph casting a buying
+                spell on your ideal customers. Specifically speaking, he
                 composes attention-grabbing, interest-evoking, desire-building,
-                action-prompting, and persuasive written paragraphs.
+                action-prompting, and persuasive written material.
                 <br />
                 <br />
-                When he persuades the prospects, they run, grab their wallets
-                and enthusiastically give you their credit card information with
-                a big smile on their face.
+                When copywriters persuade prospects, they run to the drawers,
+                grab their wallets and enthusiastically give you their credit
+                card information with a big smile on their face.
                 <br />
                 <br />
                 <br />
-                When you promise the prospect the medicine to their pain, a more
+                By promsing the prospect the medicine to their pain, a more
                 comfortable life or an enjoyable experience along with the most
                 appealing benefits, delivered with creativity and precision, you
-                move their buying needles to your advantage.
+                move them past the buying threshhold.
                 <br />
                 <br />
-                After they experience the beneficial results your product is
-                designed to deliver, they give you heart-warming testimonials
-                which you utilize for more sales and to further develop your
-                product for maximum profitability.
+                Soon after they experience the beneficial results your product
+                is designed to deliver, they become more than glad to give you
+                heart-warming testimonials which you utilize for more sales and
+                to further develop your product for maximum profitability.
                 <br />
                 <br />
                 This might seem like wishful thinking. But the reality is that

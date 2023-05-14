@@ -4,6 +4,7 @@ import twitter from "../media/twitter.png";
 import instagram from "../media/instagram.png";
 import linkedin from "../media/linkedin.png";
 import alisonCertificate from "../media/alison-certificate.png";
+import alisonCertificate2 from "../media/alison-certificate-2.png";
 import { Link } from "react-router-dom";
 import { Fade } from "react-reveal";
 
@@ -37,8 +38,9 @@ const Footer = () => {
               </ul>
             </div>
             <div className="middle">
-              <h3>Certified Copywriter.</h3>
+              <h3>Award Winning & Certified Copywriter.</h3>
               <img src={alisonCertificate} alt="AWAI logo" />
+              <img src={alisonCertificate2} alt="AWAI logo" />
             </div>
             <div className="socialmedia">
               <Link
@@ -62,6 +64,15 @@ const Footer = () => {
                 style={{ backgroundImage: `url(${linkedin})` }}
               ></Link>
             </div>
+          </div>{" "}
+          <div className="footer-contact-info">
+            <p>
+              Omar S. Khalil
+              <br />
+              New Paltz, NY 12561
+              <br />
+              omareldagestany@outlook.com
+            </p>
           </div>
           <h5 className="mt-5">All Rights Reserved.</h5>
         </div>
