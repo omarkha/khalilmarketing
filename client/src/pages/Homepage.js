@@ -31,7 +31,7 @@ const Homepage = () => {
               </div>
               <div className="myinfo">
                 <h2 className="display-3 text-light   mb-5">
-                  Effective Marketing For Your Brand New Business
+                  Get Sales For Your Startup Business Within <br />a Few Days
                   <br />
                 </h2>
                 <Link to="/landingpage" id="homeintrobtn" className="button-3">
@@ -77,7 +77,7 @@ const Homepage = () => {
           <Fade left>
             <div>
               <h3 className="text-primary subhead">
-                Unfamiliar with Marketing?
+                Unfamiliar With Marketing?
               </h3>
 
               <p className="h5 text-dark">

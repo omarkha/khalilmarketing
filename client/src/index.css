@@ -106,7 +106,7 @@ a:hover {
 }
 
 .landingpage {
-  background: rgb(215, 215, 215);
+  background: rgb(215, 215, 240);
 }
 
 .landingpage .container {
@@ -282,9 +282,9 @@ a:hover {
   margin: 55px auto;
 }
 .copy .quote {
-  color: #fff;
+  color: rgb(0, 0, 63);
   font-size: 18px;
-  background-color: rgb(101, 101, 160);
+  background-color: rgb(215, 215, 255);
   padding: 21px;
   border-radius: 13px;
   width: 610px;
@@ -394,7 +394,7 @@ footer ul {
 article {
   background-color: #fff;
   margin: 144px auto;
-  border: 2px solid #000;
+  box-shadow: 0 0 13px #000;
   padding: 55px 13px;
   width: 100%;
   border-radius: 13px;
@@ -408,7 +408,7 @@ article img {
 }
 
 .certificate {
-  width: 144px;
+  width: 233px;
   margin: 55px;
 }
 

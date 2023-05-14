@@ -3,7 +3,7 @@ import survey from "../media/survey2.jpg";
 import gem from "../media/gem.jpg";
 import beethoven from "../media/Beethoven.jpg";
 import omar from "../media/mypicture6.jpg";
-import problem from "../media/problem.jpg";
+import problem from "../media/thecatch.gif";
 import alison from "../media/alison.avif";
 import bootcamp from "../media/bootcamp.png";
 import coding from "../media/coding.jpg";
@@ -64,7 +64,7 @@ const Landingpage = () => {
           <div id="container" className="container">
             <div className="landingpage-headline">
               <h2 className="headline h1">
-                How This <u>One Secret Word</u> Can Make You 10x Richer
+                How This <u>One Secret Word</u> Can Make Your Startup 10x Richer
               </h2>{" "}
               <br />
               <br />
@@ -113,68 +113,83 @@ const Landingpage = () => {
                 <img src={gem} style={{ float: "left" }} />
                 <br />
                 <br />
-                Your mind produced a profitable business idea, and you stopped
-                beating around the books.
-                <br />
-                <br /> After working hard, you created an awesome product that
-                you can't help but sit back, look at, and marvel over. Now it's
-                time to start, get paid, and celebrate. Right? <br />
-                <br />
-                The answer is 'absolutely, YES.' as soon as you learn about this
-                keyword.
+                After generating a profitable idea, you quit beating around the
+                books, and you got to work. Now you possess an awesome product
+                that you can't help but sit back, look at, and marvel over!
+                Finally, it's time to launch, get paid, and celebrate. Right?{" "}
                 <br />
                 <br />
-                This secretive keyword I'm talking about is the word
-                'Copywriter.' It covers a type of professional who can remove
-                all the obstacles you face as a new business owner. Such as an
-                unfruitful online presence, lack of time, and shortage of funds.
+                When you learn what this keyword means, the answer becomes
+                'absolutely, YES.'
+                <br />
+                <br />
+                Want to know which secretive keyword I'm talking about? No
+                problem. Your 'Yes' answer to financial success sits Within the
+                word 'Copywriter'. This word solves all the obstacles you face
+                as a new business owner, such as the unfruitful online presence,
+                lack of time, and shortage of funds.
+                <br />
+                <br />
+                As soon as I learned the meaning of this particular word, I knew
+                I struck gold and I got the key to achieving my ambitions.{" "}
                 <br />
                 <br />
                 <br />
                 <br />
               </Fade>
               <Fade right>
-                <h4 className="text-primary">What Does The Word Mean?</h4>
+                <h4 className="text-primary">
+                  What This Copywriter Does For You
+                </h4>
                 <br />
                 <img src={beethoven} style={{ float: "right" }} />
-                When I learned the meaning of this particular word, I knew I
-                struck gold and I got the key to reaching my ambitious goals.{" "}
-                <br />
-                <br />A copywriter is like a Musical Composer. But instead, he
+                Like a Musical Composer a Copywriter orchestrates emotionally
+                moving melodies that are struck by each paragraph casting a
+                buying spell on your ideal customers. Specifically speaking, he
                 composes attention-grabbing, interest-evoking, desire-building,
-                action-prompting, and persuasive written paragraphs. The
-                emotionally moving melodies that are struck by each paragraph
-                cast a buying spell on your ideal customers.
+                action-prompting, and persuasive written paragraphs.
                 <br />
                 <br />
-                When the prospect is persuaded, they will run, grab their wallet
-                and give you their credit card information with a big smile on
-                their face.
+                When he persuades the prospects, they run, grab their wallets
+                and enthusiastically give you their credit card information with
+                a big smile on their face.
                 <br />
                 <br />
-                The promise of a unique experience and the right benefits,
-                combined with precise delivery, moves their buying needle to
-                your side.
+                <br />
+                When you promise the prospect the medicine to their pain, a more
+                comfortable life or an enjoyable experience along with the most
+                appealing benefits, delivered with creativity and precision, you
+                move their buying needles to your advantage.
                 <br />
                 <br />
-                After they experience the beneficial results of your product,
-                they will give you heart-warming testimonials and you can
-                utilize their feedback for more sales and for improving your
-                product.
+                After they experience the beneficial results your product is
+                designed to deliver, they give you heart-warming testimonials
+                which you utilize for more sales and to further develop your
+                product for maximum profitability.
                 <br />
                 <br />
-                In no time, the copywriting guru starts channeling money from
-                the market pool into your bank account, then you can accumulate
-                wealth and achieve total financial freedom within a few months
-                to two years.
+                This might seem like wishful thinking. But the reality is that
+                this operation drives 100s of billions of dollars every year.
+                <br />
+                <br />
+                landing pages, sales pages, newsletters, emails, pamphlets, web
+                content, blogs, and more, This professional effectively writes
+                it all.
+                <br />
+                <br />
+                Within days, this Copywriter, this marketing guru starts
+                channeling market assets into your business, accumulating wealth
+                for you as you achieve total financial freedom within a few
+                months to one year.
                 <br />
                 <br />
                 <br />
                 <br />
               </Fade>
               <h4 className="text-primary">
-                But There's Just One Challenging Obstacle
+                But You Must Overcome This One Challenge
               </h4>
+              <br />
               <img
                 src={problem}
                 alt="problem image"
@@ -182,30 +197,41 @@ const Landingpage = () => {
               />
               <br />
               <br />
-              The bad news is that 95% of copywriters are novices who are not up
-              to snuff, and a good copywriter may cost more than you could
-              afford.
+              By hiring a decent copywriter, with proper marketing game, and
+              who's familiar with technology, you avoid a marketing mess.
               <br />
               <br />
-              But, if you don't want a marketing mess, it's best to hire a
-              properly trained copywriter who has a good marketing game, who
-              understands the technological aspect of marketing, and who can
-              convert prospects into satisfied, paying clients.
+              But, novices who are not up to snuff make up 95% of copywriters,
+              and a good copywriter may cost more than your entire marketing
+              budget.
               <br />
               <br />
-              The size of your budget doesn't matter to me, the only thing that
-              matters is that you have created a profitable product.
+              I have a way for you to find one of those 5% copywriters at a cost
+              you can afford. <br />
+              <br />
+              A rare breed of competent copywriters exist who don't obsess over
+              immediate money. They work toward releasing your products' fullest
+              potential, as long as your product is profitable. Afterall, if
+              they're so confident of their abilities, I'm sure they could
+              figure out this type of payment plan. <br />
+              <br />
+              When you flex your generosity muscles, the obstacle of copywriter
+              scarcity goes out the window and you can live your dreams.
+              <br />
+              <br />
+              Let me introduce to you...
               <br />
               <br />
               <br />
               <br />
               <Fade bottom>
                 <h4 className="text-success">
-                  <u>Let Me Solve That Problem For You</u>
+                  <u>
+                    A Copywriter Who Offers You Better Services For Less Money
+                  </u>
                 </h4>
                 <br />
-                Hi There, My name is Omar S. Khalil and I've studied the art and
-                science of copywriting for over 5 years.{" "}
+                <br />
                 <div
                   id="omar-picture"
                   alt="Omar Khalil's picture"
@@ -213,36 +239,40 @@ const Landingpage = () => {
                 >
                   <h2 className="text-light">Omar S. Khalil</h2>
                 </div>
-                As an experienced Copywriter from a small town in upstate New
-                York, I'm qualified, certified and ready to help your business
-                survive through the adversity of its starting phase and have a
-                prosperous future.
                 <br />
-                <br />I can write converting marketing copy for any type of
-                business. I'm confident and pumped to win you qualified leads,
-                win you those important initial sales and provide you with the
-                continuous marketing you need to earn money year after year.
                 <br />
-                <br /> With a bit of hard work and patience, you'll eventually
-                begin living the life you've been dreaming about and working
-                hard to achieve.
+                My name is Omar S. Khalil. I'm experienced and certified to help
+                your business survive through the adversity of its starting
+                phase and help you have a prosperous future.
                 <br />
-                <br /> I continue tweaking and perfecting your marketing, so
-                instead of being overwhelmed and exhausted by a field of study
-                that takes years to master, you can comfortably spend your time
-                tweaking and perfecting your products.
+                <br />
+                In the past 5 years, I studied over 15 books, took 4 courses on
+                the art and science of copywriting, and I aquired 2 CPD
+                certificates. I possess the capability to write promotional copy
+                that converts readers into clients for any type of business, and
+                I aim to win you qualified leads, those crucial initial sales
+                and continuously market your business to earn you money month
+                after month.
+                <br />
+                <br /> I make my money by receiving a fairly small percentage of
+                your profits with a negotiable/flexible payment plan. <br />
+                <br />
+                As I constantly tweak and optimize your marketing, you spend
+                your time tweaking and optimizing your products or services.{" "}
+                <br />
+                <br /> Within months of working with me, you begin reaching your
+                ambitions in life and live the life you always wanted and
+                dreamed about.
                 <br />
                 <br />
               </Fade>
             </p>{" "}
           </article>
 
-          <Fade left>
+          {/* <Fade left>
             <article>
               <p className="h1 text-dark">
-                <h3 className=" text-dark h1">
-                  The Story of a Young Bulldozer
-                </h3>
+                <h3 className=" text-dark h1">My First Marketing Experience</h3>
                 <img
                   src={survey}
                   style={{ float: "left" }}
@@ -299,62 +329,7 @@ const Landingpage = () => {
                 <br />
               </p>
             </article>
-          </Fade>
-          <Fade right>
-            <article>
-              <h3 className=" text-dark h1">My First 3 Marketing Awards</h3>
-              <p className="h1 text-dark">
-                <img
-                  src={award}
-                  style={{ float: "right" }}
-                  alt="survey picture"
-                />
-                <br />
-                <br />
-                I'm sitting down, talking to the hiring managers for my
-                interview, and I promised them that I'd do great. I learned a
-                few lessons from my salesman job. So as soon as I began working
-                I wanted to do my best and prove my capabilities. I was
-                surprised, myself.
-                <br />
-                <br /> There were over 30 people working with me, in the office
-                I worked at, in downtown Colorado Springs. We got on the field
-                on the first day and I put the speaking to the peak. I
-                outperformed all of my coworkers by collecting the most data.
-                Not only for just one day but I was Awarded For Being The Best
-                Employee on my first three days.
-                <br />
-                <br />
-                I could've kept going. But, as happy as I was to achieve that, I
-                realized that I had pretty much secured the job and I didn't
-                want to hog the spotlight. So on the fourth day, I finally took
-                my finger off the tablet and slowed down a bit so as to let
-                others get awarded as well at the end of the day and as to not
-                demoralize my colleagues. They also need free smoothies.
-                <br />
-                <br />
-                With my people skills and ability to effectively interview
-                people, I can provide you with:
-                <br />
-                <br />
-                <ul>
-                  <li>
-                    <strong>testimonials.</strong> So you build more trust with
-                    prospects and close more sales.
-                  </li>
-                  <li>
-                    <strong>customized surveys.</strong> So you put your finger
-                    on the pulse of your market, understand your business
-                    better, and improve your products.
-                  </li>
-                  <li>
-                    <strong>qualified leads.</strong> So you have a larger list
-                    of qualified prospects for follow-up marketing campaigns.
-                  </li>
-                </ul>
-              </p>
-            </article>
-          </Fade>
+          </Fade> */}
 
           <Bounce bottom>
             <div className="testimonial text-light">
@@ -374,25 +349,24 @@ const Landingpage = () => {
             <Fade left>
               <p className="h1 text-dark">
                 <h3 className="h1 subhead">
-                  Writing Copy In English As a Non-Native English Speaker
+                  Writing Copy As a Non-Native English Speaker
                 </h3>
                 <br />
-                Knowing the correct words to use and their correct arrangement
-                is what distinguishes an excellent copywriter from an average
-                Joe.
+                While my native language is, if you couldn't guess, the Arabic
+                language, I think this won't deter you and for good reasons.
                 <br />
                 <br />
-                While my native language is.. if you couldn't guess... Arabic, I
-                think this shouldn't deter you. Some people might assume that
-                non-native English speakers are not as capable as native
-                speakers. They're not always wrong. Although, while it's true
-                that natives usually have a deeper understanding of the English
-                language, research shows that being bilingual comes with some
-                exclusive strengths.
+                Science aside, I personally think it's true that natives usually
+                have a deeper understanding of the English language, but
+                research shows that being bilingual comes with some exclusive
+                strengths that can offer you unique and desirable benefits. But
+                first, is it really true that native English speakers are better
+                writers than bilinguals?
                 <br />
                 <br />
-                Scientific studies show that bilingual individual are actually
-                at an advantage in regards to Copywriting.
+                Below I provide scientific studies that show that bilingual
+                individuals are actually at an advantage in regards to the field
+                of Copywriting. Yalla, Habibi.
                 <br />
                 <br />
                 <div className="quote">
@@ -403,14 +377,28 @@ const Landingpage = () => {
                   outperform monolinguals in problem solving (Bain, 1975),
                   perceptual focusing (Duncan and De Avila, 1979), and the Simon
                   task (e.g., Bialystok et al., 2004; for a general review, see
-                  Bialystok and Craik, 2010)."{" "}
+                  Bialystok and Craik, 2010)."
+                  <br />
+                  <a
+                    href="https://www.frontiersin.org/articles/10.3389/fpsyg.2011.00273/full"
+                    target="_blank"
+                  >
+                    More Info
+                  </a>
                 </div>
-                With access to different mindsets and perceptions, and more
-                tools for self-expression, I am actually freer in my thinking
-                and I am more flexible in explaining things. Those are more
-                reasons why I can write a one-of-a-kind marketing piece that
-                grabs MORE attention, inspires MORE interest, builds MORE
-                desire, and gets MORE prospects to take ACTION.
+                Knowing the correct words to use and their correct arrangement
+                is what distinguishes an excellent copywriter from an average
+                writer.
+                <br />
+                <br />
+                With access to different mindsets and perceptions and more tools
+                for self-expression, I am freer in my thinking and more flexible
+                in explaining things. <br />
+                <br />
+                Besides everything else, those are more reasons why I can write
+                a one-of-a-kind marketing piece that grabs more attention,
+                inspires more interest, builds more desire, and gets more
+                prospects to take action for your business.
               </p>
             </Fade>
             <br />
@@ -495,7 +483,7 @@ const Landingpage = () => {
                 <br />
                 Modern technology has infiltrated the field of marketing. A
                 couple of decades ago, It was just a copywriter with a
-                typewriter crafting marketing materials. Now companies are
+                typewriter crafting marketing material. Now companies are
                 utilizing software developers to engineer software that
                 optimizes their marketing campaigns. Luckily, I'm not new to
                 coding either.
@@ -549,7 +537,90 @@ const Landingpage = () => {
               </Fade>
             </p>
           </article>
-          <br />
+
+          <Fade right>
+            <article>
+              <h3 className=" text-dark h1">My First 3 Marketing Awards</h3>
+              <p className="h1 text-dark">
+                <img
+                  src={award}
+                  style={{ float: "right" }}
+                  alt="survey picture"
+                />
+                <br />
+                <br />
+                My ambitions reached farther than the horizon, when I was 18
+                years old. Therefore, I moved from my small, little town in
+                upstate New York to Colorado Springs, to pursue my dreams and
+                make my impact on the world.
+                <br />
+                <br />
+                I began working as a Salesman, for my first job in Colorado. The
+                Kirby Company tasked me with selling costly Vacuum Cleaners. But
+                I didn't possess the sales skills to secure a sufficient income
+                whilst getting paid on commission. So, in order to secure my
+                stay in Colorado, I moved on, after three weeks, in search for a
+                job with a stable wage.
+                <br />
+                <br /> That's when I struck gold.
+                <br />
+                <br />
+                I applied for and received an interview at Black Diamond
+                Outreach; a Marketing company. During the interview, I was
+                sitting down, talking to the hiring managers, and I promised
+                them that I'd do great. Afterall, I learned a few lessons from
+                my salesman job. So as soon as I began working I wanted to do my
+                best and prove my capabilities. And, I was surprised, myself.
+                <br />
+                <br />
+                There, I went canvassing on the field, with a tablet that showed
+                a map pinpointing the locations of a list of people I was
+                assigned to survey.
+                <br />
+                <br />
+                I knocked on their doors, introduced myself, and chatted with
+                them while surveying them about political issues, collecting
+                their names, emails and answers. Each day, I interviewed up to
+                around 85 people face to face. <br />
+                <br />
+                There were over 30 people working with me, in the office I
+                worked at, in downtown Colorado Springs. We got on the field on
+                the first day and I put my social ability to its peak. I
+                outperformed all of my coworkers by collecting the most data.
+                Not only for just one day but I was Awarded For Being The Best
+                Employee on my first three days.
+                <br />
+                <br />
+                I could've kept going. But, as happy as I was to achieve that, I
+                realized that I had pretty much secured the job and I didn't
+                want to hog the spotlight. So on the fourth day, I finally took
+                my finger off the tablet and slowed down a bit so as to let
+                others get awarded as well at the end of the day and as to not
+                demoralize my colleagues. They also need free smoothies.
+                <br />
+                <br />
+                With my <strong>people skills</strong> and ability to
+                effectively interview people, I provide you with:
+                <br />
+                <br />
+                <ul>
+                  <li>
+                    <strong>testimonials.</strong> So you build more trust with
+                    prospects and close more sales.
+                  </li>
+                  <li>
+                    <strong>customized surveys.</strong> So you put your finger
+                    on the pulse of your market, understand your business
+                    better, and improve your products.
+                  </li>
+                  <li>
+                    <strong>qualified leads.</strong> So you have a larger list
+                    of qualified prospects for follow-up marketing campaigns.
+                  </li>
+                </ul>
+              </p>
+            </article>
+          </Fade>
           <article>
             <p className="h1 text-dark">
               <Fade left>
@@ -569,8 +640,8 @@ const Landingpage = () => {
                 than working for money. That's why I'd like to work with an
                 entrepreneurially-spirited individual who's got a good and
                 profitable product or service. My success is your success. This
-                is why, whatever your budget is, I offer you flexible payment
-                plans.
+                is another reason why, whatever your budget is, I offer you
+                flexible payment plans.
               </Fade>
             </p>{" "}
             <br />
@@ -649,7 +720,8 @@ const Landingpage = () => {
                 <br />
                 I've also completed two CPD accredited copywriting courses
                 during this year and I'm properly certified by a copywriter with
-                25 years of professional experience named Marcia Yudkin.
+                a PHD and 25 years of professional experience named Marcia
+                Yudkin.
               </p>{" "}
               <a href="https://alison.com/user/pdf/4698/1" target="_blank">
                 <Bounce>
@@ -699,8 +771,8 @@ const Landingpage = () => {
                   <br />
                   After submitting your name and email address, you'll
                   immediately receive 'The 5-Questions Email' via an automated
-                  response. That helps me understand what your business is
-                  about.
+                  response. That helps me understand what your business is about
+                  and helps you pitch your business idea.
                   <br />
                   <br />
                   Send me an email back with your answers and I'll discuss with
