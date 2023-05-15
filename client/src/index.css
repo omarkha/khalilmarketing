@@ -581,7 +581,7 @@ article img {
   margin: 21px;
   width: 38%;
   border-radius: 13px;
-  height: 377px;
+  min-height: 62vh;
   background-size: cover;
   background-position: top;
   background-position-y: -89px;

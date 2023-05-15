@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import survey from "../media/survey2.jpg";
 import gem from "../media/gem.jpg";
 import beethoven from "../media/Beethoven.jpg";
-import omar from "../media/mypicture6.jpg";
+import omar from "../media/myphoto4.jpg";
 import problem from "../media/thecatch.gif";
 import alison from "../media/alison.avif";
 import bootcamp from "../media/bootcamp.png";
@@ -91,21 +91,11 @@ const Landingpage = () => {
           <br />
           <Fade left>
             <h2 className="h2">
-              After Learning This Secret Marketing Word, You Can Profitably
-              Launch Your Startup Business And Receive a Stream of Orders
-              Shortly After
+              Need More Sales? Orders Start Streaming to Your Bank, Shortly
+              After You Learn This Marketing Word
             </h2>
           </Fade>
-          <div className="landingpage-logo">
-            <div style={{ backgroundImage: `url(${logo})` }}></div>
-            <h1>
-              <span className="techra">Khalil Marketing</span> <br />
-            </h1>
-          </div>
-          <br />
-          <br />
-          <br />
-          <br />
+
           <br />
           <br />
           <article>
@@ -115,20 +105,20 @@ const Landingpage = () => {
                 <br />
                 <br />
                 After generating a money-making business idea, you quit beating
-                around the books, and you got to work. Now you got an awesome
-                product that you can't help but sit back, look at, and marvel
-                over! Finally, it's time to launch, get paid, and celebrate.
-                Right? <br />
+                around the books, and you got to the lab. <br />
+                <br /> You developed an awesome product that you can't help but
+                sit back, look at, and marvel over! Finally, it's time to
+                launch, get paid, and celebrate. Right? <br />
                 <br />
                 When you learn what this keyword means, the answer becomes
                 'absolutely, YES.'
                 <br />
                 <br />
-                Which secretive keyword I'm talking about? Ok. Your 'Yes' answer
-                to financial success sits Within the word 'Copywriter'. This
-                word solves all the obstacles you face as a new business owner,
-                such as the unfruitful online presence, lack of time, and
-                shortage of funds.
+                Which secretive keyword am I talking about? No Problemo. Your
+                'Yes' answer to a successful business sits Within the word
+                'Copywriter'. With this word you solve all the obstacles you
+                face as a new business owner, such as the unfruitful online
+                presence, lack of time, and shortage of funds.
                 <br />
                 <br />
                 As soon as I learned the meaning of this particular word, I
@@ -140,7 +130,7 @@ const Landingpage = () => {
               </Fade>
               <Fade right>
                 <h4 className="text-primary">
-                  What This Copywriter Does For You
+                  What Does This Copywriter Do For You?
                 </h4>
                 <br />
                 <img src={beethoven} style={{ float: "right" }} />
@@ -157,10 +147,10 @@ const Landingpage = () => {
                 <br />
                 <br />
                 <br />
-                By promsing the prospect the medicine to their pain, a more
+                By promising the prospect the medicine to their pain, a more
                 comfortable life or an enjoyable experience along with the most
                 appealing benefits, delivered with creativity and precision, you
-                move them past the buying threshhold.
+                move them past the buying threshold.
                 <br />
                 <br />
                 Soon after they experience the beneficial results your product
@@ -212,7 +202,7 @@ const Landingpage = () => {
               <br />
               A rare breed of competent copywriters exist who don't obsess over
               immediate money. They work toward releasing your products' fullest
-              potential, as long as your product is profitable. Afterall, if
+              potential, as long as your product is profitable. After all, if
               they're so confident of their abilities, I'm sure they could
               figure out this type of payment plan. <br />
               <br />
@@ -235,23 +225,23 @@ const Landingpage = () => {
                   id="omar-picture"
                   alt="Omar Khalil's picture"
                   style={{ backgroundImage: `url(${omar})`, float: "right" }}
-                >
-                  <h2 className="text-light">Omar S. Khalil</h2>
-                </div>
+                ></div>
                 <br />
                 <br />
-                My name is Omar S. Khalil. I'm experienced and certified to help
-                your business survive through the adversity of its starting
+                My name is Omar S. Khalil. For the past 5 years, I studied the
+                art and science of copywriting. I'm experienced and certified to
+                help your business survive through the adversity of its starting
                 phase and help you have a prosperous future.
                 <br />
                 <br />
-                In the past 5 years, I studied over 15 books, took 4 courses on
-                the art and science of copywriting, and I aquired 2 CPD
-                certificates. I possess the capability to write promotional copy
-                that converts readers into clients for any type of business, and
-                I aim to win you qualified leads, those crucial initial sales
-                and continuously market your business to earn you money month
-                after month.
+                Having read over 15 books, taken 4 courses, and acquiring 2 CPD
+                certificates on copywriting, I hold in my palms the capability
+                to write copy that converts your site visitors into paying
+                clients.
+                <br />
+                <br /> Let me win you qualified leads, those crucial initial
+                sales and continuously market your business to earn you money
+                month after month.
                 <br />
                 <br /> I make my money by receiving a fairly small percentage of
                 your profits with a negotiable/flexible payment plan. <br />
@@ -365,7 +355,7 @@ const Landingpage = () => {
                 <br />
                 Below I provide scientific studies that show that bilingual
                 individuals are actually at an advantage in regards to the field
-                of Copywriting. Yalla, Habibi.
+                of Copywriting. Yalla, Let's see.
                 <br />
                 <br />
                 <div className="quote">
@@ -836,11 +826,15 @@ const Landingpage = () => {
               <br />
             </div>
           </article>
+          <div className="landingpage-logo mt-5 pt-5">
+            <div style={{ backgroundImage: `url(${logo})` }}></div>
+            <h1>
+              <span className="techra">Khalil Marketing</span> <br />
+            </h1>
+          </div>
           <Fade bottom>
             <div className="benefits">
-              <h3 className="text-dark">
-                What do you get when working with me?
-              </h3>
+              <h3 className="text-dark">What you get when working with me</h3>
               <ul>
                 <li>
                   <AiFillCheckCircle

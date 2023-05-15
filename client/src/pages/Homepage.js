@@ -1,5 +1,5 @@
 import React from "react";
-import mypicture from "../media/mypicture6.jpg";
+import mypicture from "../media/myphoto3.jpg";
 import introbg from "../media/bg3.jpg";
 
 import { Link } from "react-router-dom";
