@@ -65,7 +65,7 @@ const Landingpage = () => {
           <div id="container" className="container">
             <div className="landingpage-headline">
               <h2 className="headline h1">
-                This <u>Secretive word</u> Whips Up Sales For You Within Days
+                The <u>secret word</u> that whips up sales for you within weeks
               </h2>{" "}
               <br />
               <br />
@@ -80,7 +80,7 @@ const Landingpage = () => {
           </div>
         </div>
       </Fade>
-      <div id="mobile-container" className="landingpage-container">
+      <div id="container" className="container">
         <section className="copy">
           <br />
           <br />
@@ -89,10 +89,10 @@ const Landingpage = () => {
           <br />
           <br />
           <br />
-          <Fade left>
-            <h2 className="h2">
-              Need More Sales? Orders Start Streaming to Your Bank, Shortly
-              After You Learn This Marketing Word
+          <Fade right>
+            <h2 className="h2 px-5">
+              Need More Sales? Shortly After Learning Just One Crucial Word,
+              Orders Start Streaming to Your Bank
             </h2>
           </Fade>
 
@@ -101,77 +101,75 @@ const Landingpage = () => {
           <article>
             <p className="h1 text-dark">
               <Fade left>
-                <img src={gem} style={{ float: "left" }} />
+                <img src={gem} />
                 <br />
                 <br />
-                After generating a money-making business idea, you quit beating
-                around the books, and you got to the lab. <br />
-                <br /> You developed an awesome product that you can't help but
-                sit back, look at, and marvel over! Finally, it's time to
-                launch, get paid, and celebrate. Right? <br />
-                <br />
-                When you learn what this keyword means, the answer becomes
-                'absolutely, YES.'
-                <br />
-                <br />
-                Which secretive keyword am I talking about? No Problemo. Your
-                'Yes' answer to a successful business sits Within the word
-                'Copywriter'. With this word you solve all the obstacles you
-                face as a new business owner, such as the unfruitful online
-                presence, lack of time, and shortage of funds.
+                After putting together a brilliant idea, you quit beating around
+                the books, and you headed to the lab. Finally.. you developed an
+                awesome product that you can't help but sit back, look at, and
+                marvel over! Now you want to launch, get paid, and celebrate.
+                But you're facing an unfruitful online presence, a race against
+                time, and a shortage of funds. How do you overcome these
+                challenges and reach your goals?
                 <br />
                 <br />
-                As soon as I learned the meaning of this particular word, I
-                quickly realized that I got the key to reaching financial
-                abundance. <br />
+                All successful entrepreneurs know about this secret I'm going to
+                let you on. With this word you pass all your launch challenges.
+                <br />
+                <br />I introduce to you the secretive craft of 'Copywriting.' A
+                copywriting professional fills your wallet with 100s, and hands
+                you the key to your financial freedom. <br />
                 <br />
                 <br />
                 <br />
               </Fade>
               <Fade right>
                 <h4 className="text-primary">
-                  What Does This Copywriter Do For You?
+                  What Does This Craftsman Do For You exactly?
                 </h4>
                 <br />
-                <img src={beethoven} style={{ float: "right" }} />
-                Like a Musical Composer a Copywriter orchestrates moving
-                melodies that are struck by each paragraph casting a buying
-                spell on your ideal customers. Specifically speaking, he
-                composes attention-grabbing, interest-evoking, desire-building,
-                action-prompting, and persuasive written material.
+                <img src={beethoven} style={{ float: "left" }} />
+                <br />
+                A Copywriter moves people like a musical composer. He strikes
+                the right chords with his written paragraphs casting a buying
+                spell on your prospects. With the right tone, he composes
+                attention-grabbing, interest-evoking, desire-building,
+                action-prompting, persuasive written material.
                 <br />
                 <br />
                 When copywriters persuade prospects, they run to the drawers,
                 grab their wallets and enthusiastically give you their credit
-                card information with a slight smile on their face.
+                card information with a slight, happy smile on their face.
                 <br />
                 <br />
                 <br />
-                By promising the prospect the medicine to their pain, a more
-                comfortable life or an enjoyable experience along with the most
-                appealing benefits, delivered with creativity and precision, you
-                move them past the buying threshold.
+                When you convince the prospect you have a relief for their pain,
+                and offer them a better life, along with the most appealing
+                benefits, delivered with creativity and precision, you move them
+                past the buying threshold.
                 <br />
                 <br />
-                Soon after they experience the beneficial results your product
-                is designed to deliver, they become more than glad to give you
-                heart-warming testimonials which you utilize for more sales and
-                to further develop your product for maximum profitability.
+                But, they're, most likely, receiving similar messages from your
+                competitors. So, this Marketing Beethoven sits down to write
+                some melodies, persuading the prospect that you can satisfy
+                their needs better.
                 <br />
                 <br />
-                This might seem like wishful thinking. But the reality is that
-                this operation drives 100s of billions of dollars every year.
+                Soon after they experience the beneficial results your unique
+                product is designed to deliver, they delightfully endorse you
+                with heart-warming testimonials that you employ in your
+                promotions and to further develop your product for maximum
+                profitability.
                 <br />
                 <br />
-                landing pages, sales pages, newsletters, emails, pamphlets, web
+                landing pages sales pages, newsletters, emails, pamphlets, web
                 content, blogs, and more, This professional effectively writes
                 it all.
                 <br />
                 <br />
-                Within days, this Copywriter, this marketing guru starts
-                channeling market assets into your business, accumulating wealth
-                for you as you achieve total financial freedom within a few
-                months to one year.
+                Within weeks, this marketing guru starts channeling market
+                assets into your business, accumulating wealth for you as you
+                achieve total financial freedom within a few months to one year.
                 <br />
                 <br />
                 <br />
@@ -181,20 +179,13 @@ const Landingpage = () => {
                 But You Must Overcome This One Challenge
               </h4>
               <br />
-              <img
-                src={problem}
-                alt="problem image"
-                style={{ float: "left" }}
-              />
+              <img src={problem} alt="problem image" />
               <br />
               <br />
-              By hiring a decent copywriter, with proper marketing game, and
-              who's familiar with technology, you avoid a marketing mess.
-              <br />
-              <br />
-              But, novices who are not up to snuff make up 95% of copywriters,
-              and a good copywriter may cost more than your entire marketing
-              budget.
+              you avoid a marketing mess when you hire a copywriter who enjoys
+              proper marketing game. But novices who are not up to snuff make up
+              95% of copywriters, and a good copywriter may cost more than your
+              entire marketing budget.
               <br />
               <br />
               I have a way for you to find one of those 5% copywriters at a cost
@@ -224,7 +215,7 @@ const Landingpage = () => {
                 <div
                   id="omar-picture"
                   alt="Omar Khalil's picture"
-                  style={{ backgroundImage: `url(${omar})`, float: "right" }}
+                  style={{ backgroundImage: `url(${omar})`, float: "left" }}
                 ></div>
                 <br />
                 <br />
@@ -348,9 +339,7 @@ const Landingpage = () => {
                 Science aside, I personally think it's true that natives usually
                 have a deeper understanding of the English language, but
                 research shows that being bilingual comes with some exclusive
-                strengths that can offer you unique and desirable benefits. But
-                first, is it really true that native English speakers are better
-                writers than bilinguals?
+                strengths that can offer you unique and desirable benefits.
                 <br />
                 <br />
                 Below I provide scientific studies that show that bilingual
@@ -463,7 +452,7 @@ const Landingpage = () => {
                 </h3>
                 <img
                   src={coding}
-                  style={{ float: "left" }}
+                  style={{ float: "right" }}
                   alt="Coding bootcamp image"
                 />
               </Fade>
@@ -533,11 +522,7 @@ const Landingpage = () => {
                 Award Winning Marketing Professional
               </h3>
               <p className="h1 text-dark">
-                <img
-                  src={award}
-                  style={{ float: "right" }}
-                  alt="survey picture"
-                />
+                <img src={award} alt="survey picture" />
                 <br />
                 <br />
                 I moved from my small, little town in upstate New York to
