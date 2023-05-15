@@ -820,6 +820,7 @@ const Landingpage = () => {
           <Fade bottom>
             <div className="benefits">
               <h3 className="text-dark">What you get when working with me</h3>
+              <br />
               <ul>
                 <li>
                   <AiFillCheckCircle
