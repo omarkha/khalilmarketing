@@ -3,9 +3,9 @@ import React from "react";
 const Servicespage = () => {
   return (
     <div className="servicespage">
-      <div className="container bg-light">
+      <div className="container">
         <div>
-          <h1 className="py-5">Our Services Include</h1>
+          <h1 className="py-5">My Services</h1>
         </div>
         <section className="services">
           <div className="service">
@@ -18,18 +18,15 @@ const Servicespage = () => {
           <div className="service">
             <h3 className="text-dark">Email Marketing</h3>
             <p>
-              I build an Email Marketing campaign that makes the most out of
-              your list. Autoresponders, indoctrination sequences, sales emails,
+              I build Email Marketing campaigns that make the most out of your
+              list. Autoresponders, indoctrination sequences, sales emails,
               content emails, affiliate emails or re-engagement emails. I got it
               covered.
             </p>
           </div>
           <div className="service">
             <h3 className="text-dark">Landing Pages</h3>
-            <p>
-              I'll work tirelessly to develop the most effective landing-page in
-              genreating leads.
-            </p>
+            <p>I develop effective landing-pages that generate leads.</p>
           </div>
           <div className="service">
             <h3 className="text-dark">Sales Pages</h3>
@@ -42,18 +39,16 @@ const Servicespage = () => {
           <div className="service">
             <h3 className="text-dark">Home Pages & Website Copy</h3>
             <p>
-              This section of your website uses Branding Copy or Authority Copy.
-              Your Brand Message is everything in this page copy. The goal of a
-              Homepage is simple: to create trust, build authority, and offer
-              next steps.
+              The section of Branding Copy or Authority Copy. Your Brand Message
+              is everything in this page copy. The goal of a Homepage is simple:
+              to create trust, build authority, and offer next steps.
             </p>
           </div>
           <div className="service">
             <h3 className="text-dark">About Pages</h3>
             <p>
-              This section of your website is a great place to share your brand
-              story, vision, mission nd philosophy as well as your main points
-              of differentiation.
+              The place to share your brand story, vision, mission and
+              philosophy as well as your main points of differentiation.
             </p>
           </div>
           <div className="service">

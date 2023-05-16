@@ -65,7 +65,7 @@ const Landingpage = () => {
           <div id="container" className="container">
             <div className="landingpage-headline">
               <h2 className="headline h1">
-                The <u>secret word</u> that whips up sales for you within weeks
+                This <u>secret</u> whips up sales for you within weeks
               </h2>{" "}
               <br />
               <br />
@@ -91,8 +91,8 @@ const Landingpage = () => {
           <br />
           <Fade right>
             <h2 className="h2 px-5">
-              Need More Sales? Shortly After Learning Just One Crucial Word,
-              Orders Start Streaming to Your Bank
+              Need More Sales? This <u>One Crucial Word</u> Starts Streaming
+              Orders to Your Business Account
             </h2>
           </Fade>
 
@@ -104,21 +104,24 @@ const Landingpage = () => {
                 <img src={gem} />
                 <br />
                 <br />
-                After putting together a brilliant idea, you quit beating around
-                the books, and you headed to the lab. Finally.. you developed an
-                awesome product that you can't help but sit back, look at, and
-                marvel over! Now you want to launch, get paid, and celebrate.
-                But you're facing an unfruitful online presence, a race against
-                time, and a shortage of funds. How do you overcome these
-                challenges and reach your goals?
+                You desired more out of life. So, you put together a brilliant
+                idea and you headed to the lab. Then.. you developed an awesome
+                product that had you sitting back with a great feeling of
+                achievement. <br />
+                <br />
+                Now you want to launch, get paid, and celebrate. Your product is
+                excellent, but you can't seem to sell it. You're looking at an
+                unfruitful online presence, a race against time, and a shortage
+                of funds.
                 <br />
                 <br />
                 All successful entrepreneurs know about this secret I'm going to
-                let you on. With this word you pass all your launch challenges.
+                let you on. With this word, you, effortlessly, pass all your
+                launch challenges.
                 <br />
-                <br />I introduce to you the secretive craft of 'Copywriting.' A
-                copywriting professional fills your wallet with 100s, and hands
-                you the key to your financial freedom. <br />
+                <br />I introduce to you the handy 'Copywriter,' who fills your
+                wallet with 100s, and hands you the key to your financial
+                freedom. <br />
                 <br />
                 <br />
                 <br />
@@ -130,7 +133,7 @@ const Landingpage = () => {
                 <br />
                 <img src={beethoven} style={{ float: "left" }} />
                 <br />
-                A Copywriter moves people like a musical composer. He strikes
+                A Copywriter enchants people like a musical composer. He strikes
                 the right chords with his written paragraphs casting a buying
                 spell on your prospects. With the right tone, he composes
                 attention-grabbing, interest-evoking, desire-building,
@@ -143,7 +146,7 @@ const Landingpage = () => {
                 <br />
                 <br />
                 <br />
-                When you convince the prospect you have a relief for their pain,
+                When you convince the prospect you have relief for their pain,
                 and offer them a better life, along with the most appealing
                 benefits, delivered with creativity and precision, you move them
                 past the buying threshold.
@@ -162,9 +165,8 @@ const Landingpage = () => {
                 profitability.
                 <br />
                 <br />
-                landing pages sales pages, newsletters, emails, pamphlets, web
-                content, blogs, and more, This professional effectively writes
-                it all.
+                landing pages, sales pages, emails, Ads, blog posts, video
+                scripts and more, This professional effectively writes it all.
                 <br />
                 <br />
                 Within weeks, this marketing guru starts channeling market
@@ -344,18 +346,18 @@ const Landingpage = () => {
                 <br />
                 Below I provide scientific studies that show that bilingual
                 individuals are actually at an advantage in regards to the field
-                of Copywriting. Yalla, Let's see.
+                of Copywriting.
                 <br />
                 <br />
                 <div className="quote">
-                  "Increasing evidence suggests that speaking more than one
+                  Increasing evidence suggests that speaking more than one
                   language does not only improve one’s verbal skills but also
                   more general, non-linguistic cognitive abilities. For
                   instance, bilingual individuals have been demonstrated to
                   outperform monolinguals in problem solving (Bain, 1975),
                   perceptual focusing (Duncan and De Avila, 1979), and the Simon
                   task (e.g., Bialystok et al., 2004; for a general review, see
-                  Bialystok and Craik, 2010)."
+                  Bialystok and Craik, 2010).
                   <br />
                   <a
                     href="https://www.frontiersin.org/articles/10.3389/fpsyg.2011.00273/full"

@@ -31,7 +31,7 @@ const Homepage = () => {
               </div>
               <div className="myinfo">
                 <h2 className="display-3 text-light   mb-5">
-                  Get Sales For Your Startup Business Within <br />a Few Days
+                  Sell Your Product Within Weeks
                   <br />
                 </h2>
                 <Link to="/landingpage" id="homeintrobtn" className="button-3">
